@@ -1,0 +1,78 @@
+.page {
+  margin: 0 auto;
+  width: 8.5in;
+  height: 11in;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-width: 33%; */
+  /* column-count: 3; */
+  break-after: always;
+}
+
+.card {
+  /* background: crimson; */
+  flex: 0;
+  height: 3.5in;
+  width: 2.5in;
+  border: solid black .075in;
+  border-radius: 3mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: .1em;
+  /* padding: .25in; */
+  box-sizing: border-box;
+  column-span: 1;
+  break-after: always;
+}
+
+@media print {
+  .page {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .card {
+    border-color: #444;
+  }
+}
+
+/* 
+.card::before {
+  content: 'meow';
+  background-color: blueviolet;
+  page-break-before: always;
+  display: block;
+  border: solid peru 5px
+} */
+
+/* 
+.card:nth-child(9n) {
+  background-color: crimson;
+  page-break-after: always;
+  column-span: all;
+  break-inside: always;
+}
+ */
+
+/* } */
+
+.mtg-logo {
+  width: 80%;
+  /* margin: 10% auto; */
+  display: block;
+
+}
+
+
+.card>h3 {
+  border: solid black;
+  border-width: .06in 0;
+  /* background: black; */
+  /* color: white; */
+  /* flex: 1; */
+  width: 100%;
+  padding: .5em 0;
+}
