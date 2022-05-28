@@ -1,43 +1,40 @@
-import cards from "../../data/missing.json";
-import Card from "../Card/Card";
-
+/* eslint-disable radix */
+import cards from '../../data/missing.json';
+import Card from '../Card/Card';
+import MtgCard from '../Card/MtgCard';
 
 const CardBuilder = () => {
   window.cards = cards;
-  const cleaned = 
-  cards
-  .filter(card => parseInt(card.Count) + parseInt(card['Foil count']) + parseInt(card['Special foil count'])
+  const cleaned = cards
+    .filter((card) => parseInt(card.Count) + parseInt(card['Foil count']) + parseInt(card['Special foil count'])
   === 0)
-  .map(card => {
-    return {
+    .map((card) => ({
+      ...card,
       name: card.Name,
       number: card.Number,
-    }
-  })
+    }));
+
+  window.cleaned = cleaned;
 
   const pageArray = [];
-  for (let i=0; i<cleaned.length; i+=9) {
-    pageArray.push(cleaned.slice(i, i+9));
+  for (let i = 0; i < cleaned.length; i += 9) {
+    pageArray.push(cleaned.slice(i, i + 9));
   }
-  console.log('pageArray', pageArray)
-  
+  // console.log('pageArray', pageArray)
 
-  console.log('cards :>> ', cleaned);
+  // console.log('cards :>> ', cleaned);
   return (
     <>
-    {pageArray.map(page => {
-      console.log('page :>> ', page);
-      return (
-    <div className="page">
-      {page.map(card => (
-        
-        <Card key={card.name + card.number} card={card} />
-        
-        ))}
-    </div>
-      )
-    })}
-        </>
-  )
-}
-export default CardBuilder
+      {pageArray.map((page) => (
+        <div className="page" key={Math.random()}>
+          {page.map((card) => (
+
+            <MtgCard key={card.name + card.number} card={card} />
+
+          ))}
+        </div>
+      ))}
+    </>
+  );
+};
+export default CardBuilder;
