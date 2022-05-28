@@ -1,8 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { scryfallApi } from '../api/scryfall.api';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [scryfallApi.reducerPath]: scryfallApi.reducer,
   },
+
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware()
+    .concat(scryfallApi.middleware),
 });

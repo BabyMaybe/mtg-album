@@ -20,11 +20,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: .1em;
-  /* padding: .25in; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  column-span: 1;
-  break-after: always;
+
+}
+
+.symbol-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: crimson; */
+  width: 200px;
+}
+
+.symbol-box {
+  /* text-align: left; */
+  /* flex: 1; */
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.symbol-name {
+  /* background: dodgerblue; */
+}
+
+.symbol {
+  min-width: 15px;
+  height: 15px;
+  filter: grayscale(1) contrast(3);
+  border: solid 1px black;
+  border-radius: 50%;
 }
 
 @media print {

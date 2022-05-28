@@ -1,0 +1,102 @@
+.mtg-card {
+  height: 3.5in;
+  width: 2.5in;
+  border: solid black 2px;
+  border-radius: 3mm;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-name {
+  font-size: 10pt;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 0 0 8px 8px;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 1px 4px;
+}
+
+.mana-cost {
+  float: right;
+}
+
+.card-image {
+  border: solid black 2px;
+  border-radius: 5px;
+  /* border-left: none; */
+  /* border-right: none; */
+  padding: 0 1em;
+  margin: 0 auto;
+  width: 80%;
+  height: 1.25in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-type {
+  font-size: 7.5pt;
+  text-align: left;
+  border: solid black 2px;
+  border-radius: 0 0 8px 8px;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0 2px;
+}
+
+.set-icon {
+  width: 20px;
+  text-align: right;
+  float: right;
+  padding: .25em;
+}
+
+p {
+  margin: 0;
+  text-align: left;
+}
+
+.card-text {
+  font-size: 7.5pt;
+  padding: 0 1em;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.card-body {
+  /* flex: 1; */
+}
+
+.card-flavor {
+  font-style: italic;
+  justify-self: flex-end;
+}
+
+.set-info {
+  font-size: 7pt;
+  text-align: left;
+  padding: .25em .5em;
+}
+
+
+
+.card-stats {
+  border: solid black 1px;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 1px 4px;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  line-height: 1;
+}
