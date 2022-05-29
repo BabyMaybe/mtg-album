@@ -1,28 +1,15 @@
 import React from 'react';
-import { useGetAllSymbolsQuery, useGetRandomCardQuery } from './api/scryfall.api';
+import { useGetRandomCardQuery } from './api/scryfall.api';
 import './App.css';
 import CardBuilder from './features/cardBuilder/CardBuilder';
+import ManaSymbol from './features/Mana/ManaSymbols';
 
 const App = () => {
-  // const {data } = useGetRandomCardQuery();
-  const { data: symbols } = useGetAllSymbolsQuery();
-  console.log('symbols', symbols);
-  // console.log(data)
+  console.log('app');
   return (
     <div className="App">
-
-      <div className="symbol-list">
-
-        {symbols && Object.keys(symbols)?.map((symbol) => (
-          <div className="symbol-box">
-            <span className="symbol-name">
-              {symbols[symbol].english}
-            </span>
-            <img src={symbols[symbol].url} alt="" className="symbol" />
-          </div>
-        ))}
-        {/* <CardBuilder /> */}
-      </div>
+      {/* <ManaSymbol manaCost="{W}{B}{B}{R}{G}" /> */}
+      <CardBuilder />
     </div>
   );
 };

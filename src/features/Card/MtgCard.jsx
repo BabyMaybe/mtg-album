@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-expressions */
 import { useGetCardByNameQuery, useGetSetByCodeQuery } from '../../api/scryfall.api';
 import logo from '../../assets/magic_logo.svg';
+import ManaSymbols from '../Mana/ManaSymbols';
 import './MtgCard.css';
 
 const MtgCard = ({ card }) => {
-  console.log('card :>> ', card);
+  // console.log('card :>> ', card);
   const {
     data: cardData,
     cardError,
@@ -14,9 +15,10 @@ const MtgCard = ({ card }) => {
     data: setData,
     error: setError,
     isLoading: setLoading,
-  } = useGetSetByCodeQuery(cardData?.set);
-  cardData && console.log(`card Data :>> ${card.Name}`, cardData);
-  setData && console.log('setData :>> ', setData);
+  } = useGetSetByCodeQuery(cardData?.set ?? '');
+  // } = useGetSetByCodeQuery(cardData?.set);
+  // cardData && console.log(`card Data :>> ${card.Name}`, cardData);
+  // setData && console.log('setData :>> ', setData);
   if (cardLoading) {
     return (
       <div className="card">
@@ -24,16 +26,25 @@ const MtgCard = ({ card }) => {
       </div>
     );
   }
+  // console.groupEnd();
+  // console.group(card.Name);
+  // console.log(`${card.Name} - ${cardData.set}`);
+  // console.log('cardData :>> ', cardData);
+  // setError ? console.error(setError) : console.info('no error');
 
   return (
     <div className="mtg-card">
 
-      <div className="header">
+      <div className="mtg-card-header">
         <h1 className="card-name">
           {cardData.name}
-          <span className="mana-cost">{cardData.mana_cost}</span>
         </h1>
-
+        {cardData.mana_cost
+          && (
+            <div className="mana-cost">
+              <ManaSymbols manaCost={cardData.mana_cost} />
+            </div>
+          )}
       </div>
 
       <div className="card-image">
@@ -51,10 +62,10 @@ const MtgCard = ({ card }) => {
         <p className="card-body">{cardData.oracle_text}</p>
         {cardData.flavor_text
           && (
-          <>
-            <hr />
-            <p className="card-flavor">{cardData.flavor_text}</p>
-          </>
+            <>
+              <hr />
+              <p className="card-flavor">{cardData.flavor_text}</p>
+            </>
           )}
       </div>
 
@@ -72,11 +83,11 @@ const MtgCard = ({ card }) => {
         )}
         {cardData.power && (
 
-        <div className="card-stats">
-          <span className="card-power">{cardData.power}</span>
-          /
-          <span className="card-toughness">{cardData.toughness}</span>
-        </div>
+          <div className="card-stats">
+            <span className="card-power">{cardData.power}</span>
+            /
+            <span className="card-toughness">{cardData.toughness}</span>
+          </div>
 
         )}
       </div>
