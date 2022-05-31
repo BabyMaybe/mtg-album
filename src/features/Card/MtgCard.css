@@ -69,7 +69,6 @@
   font-size: 7.5pt;
   text-align: left;
   border: solid black 2px;
-  border-radius: 0 0 8px 8px;
   border-radius: 8px;
   margin: 2px;
   padding: 0 5px;
@@ -94,14 +93,23 @@ p {
 .card-text {
   font-size: 8.5pt;
   padding: 0 1em;
-  flex-direction: column;
-  justify-content: space-evenly;
   flex: 1;
 }
+
+
 
 .card-body {
   white-space: pre-wrap;
   font-family: 'msplantin';
+}
+
+.rules-paragraph {
+  margin-bottom: .5em;
+}
+
+.card-body .mana-symbol {
+  width: 10px;
+  height: 10px;
 }
 
 .card-flavor {

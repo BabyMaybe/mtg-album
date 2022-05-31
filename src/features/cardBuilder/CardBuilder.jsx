@@ -33,7 +33,6 @@ const CardBuilder = () => {
 
   return (
     <>
-
       {pageArray.map((page) => (
         <div className="page" key={Math.random()}>
           {page.map((card) => (

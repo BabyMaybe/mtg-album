@@ -6,8 +6,9 @@ import {
   useGetCardByCardmarketIdQuery,
 } from '../../api/scryfall.api';
 import logo from '../../assets/magic_logo.svg';
-import ManaSymbols from '../Mana/ManaSymbols';
+import ManaCost from '../Mana/ManaCost';
 import './MtgCard.css';
+import RulesText from './RulesText';
 
 const MtgCard = ({ card }) => {
   const {
@@ -40,7 +41,7 @@ const MtgCard = ({ card }) => {
           {displayCard.name}
         </h1>
         {displayCard.mana_cost
-        && (<ManaSymbols manaCost={displayCard.mana_cost} />)}
+        && (<ManaCost manaCost={displayCard.mana_cost} />)}
       </div>
 
       {/* Image */}
@@ -56,14 +57,7 @@ const MtgCard = ({ card }) => {
 
       {/* Text and Flavor */}
       <div className="card-text">
-        <p className="card-body">{displayCard.oracle_text}</p>
-        {displayCard.flavor_text
-          && (
-            <>
-              <hr />
-              <p className="card-flavor">{displayCard.flavor_text}</p>
-            </>
-          )}
+        <RulesText rules={displayCard.oracle_text} flavor={displayCard.flavor_text} />
       </div>
 
       {/* Card Info */}
