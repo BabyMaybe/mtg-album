@@ -1,14 +1,22 @@
 /* eslint-disable max-len */
 /* eslint-disable radix */
-import cards from '../../data/missing.json';
-import Card from '../Card/Card';
+import cards from '../../data/new-capenna.json';
+// import cards from '../../data/missing.json';
+// import cards from '../../data/kamigawa.json';
 import MtgCard from '../Card/MtgCard';
+
+// const need = [12, 21, 33, 35, 37, 87, 96, 106, 127, 129, 142, 145, 153, 156, 166, 223, 224, 229, 231, 233, 251, 264, 274, 276, 293, 294, 297, 298, 299, 300, 301];
+
+const need = [15, 27, 172, 179, 190, 225];
 
 const CardBuilder = () => {
   window.cards = cards;
   const cleaned = cards
-    // .filter((card) => parseInt(card.Count) + parseInt(card['Foil count']) + parseInt(card['Special foil count']) === 0)
-    .filter((card) => card.Type === 'Enchantment - Saga')
+
+    // .slice(175, 200)
+    // .filter((card) => parseInt(card.Count) + parseInt(card['Foil count']) === 0)
+    .filter((card) => need.includes(card.Number))
+    // .filter((card) => card.Type.includes('Planeswalker'))
     .map((card) => ({
       ...card,
       name: card.Name,
@@ -22,18 +30,14 @@ const CardBuilder = () => {
   for (let i = 0; i < cleaned.length; i += 9) {
     pageArray.push(cleaned.slice(i, i + 9));
   }
-  // console.log('pageArray', pageArray)
 
-  // console.log('cards :>> ', cleaned);
   return (
     <>
 
       {pageArray.map((page) => (
         <div className="page" key={Math.random()}>
           {page.map((card) => (
-
             <MtgCard key={card.name + card.number} card={card} />
-
           ))}
         </div>
       ))}

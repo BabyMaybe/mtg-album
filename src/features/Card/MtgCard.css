@@ -1,3 +1,14 @@
+.page {
+  margin: 0 auto;
+  width: 8.5in;
+  height: 11in;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  page-break-after: always;
+}
+
+
 .mtg-card {
   height: 3.5in;
   width: 2.5in;
@@ -6,13 +17,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow: hidden; */
   position: relative;
   display: flex;
   flex-direction: column;
-
 }
 
+.mtg-logo {
+  width: 80%;
+  display: block;
+  opacity: .7;
+}
 
 .mtg-card-header {
   display: flex;
@@ -22,17 +36,19 @@
   border-radius: 8px;
   padding: 1px 4px;
   margin: 2px;
+  font-family: "Beleren Bold";
 }
 
 .card-name {
   font-size: 10pt;
   margin: 1px;
-  /* text-align: left; */
 }
+
 .mana-cost {
   display: flex;
   align-items: center;
 }
+
 .mana-symbol {
   width: 15px;
 }
@@ -40,8 +56,6 @@
 .card-image {
   border: solid black 2px;
   border-radius: 5px;
-  /* border-left: none; */
-  /* border-right: none; */
   padding: 0 1em;
   margin: 0 auto;
   width: 80%;
@@ -49,7 +63,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .card-type {
@@ -59,7 +72,11 @@
   border-radius: 0 0 8px 8px;
   border-radius: 8px;
   margin: 2px;
-  padding: 0 2px;
+  padding: 0 5px;
+  font-family: "Beleren Bold";
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
 }
 
 .set-icon {
@@ -75,30 +92,31 @@ p {
 }
 
 .card-text {
-  font-size: 7.5pt;
+  font-size: 8.5pt;
   padding: 0 1em;
-  /* display: flex; */
   flex-direction: column;
   justify-content: space-evenly;
   flex: 1;
 }
 
 .card-body {
-  /* flex: 1; */
+  white-space: pre-wrap;
+  font-family: 'msplantin';
 }
 
 .card-flavor {
   font-style: italic;
   justify-self: flex-end;
+  font-family: 'msplantini';
 }
 
 .set-info {
+  border-top: solid black 1px;
+  margin: 1px;
   font-size: 7pt;
-  text-align: left;
-  padding: .25em .5em;
+  text-align: center;
+  padding: 1px;
 }
-
-
 
 .card-stats {
   border: solid black 1px;
@@ -106,7 +124,15 @@ p {
   border-radius: 8px;
   padding: 1px 4px;
   position: absolute;
-  bottom: 2px;
-  right: 2px;
+  bottom: 5px;
+  right: 5px;
   line-height: 1;
+  background-color: white;
+}
+
+@media print {
+  .page {
+    grid-template-columns: 2.5in 2.5in 2.5in;
+    grid-template-rows: 3.5in 3.5in 3.5in;
+  }
 }

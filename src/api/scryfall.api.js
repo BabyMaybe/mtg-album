@@ -24,6 +24,14 @@ export const scryfallApi = createApi({
       query: (name) => `/cards/named?fuzzy=${name}`,
       providesTags: ['cards'],
     }),
+    getCardByTcgId: builder.query({
+      query: (id) => `/cards/tcgplayer/${id}`,
+      providesTags: ['cards'],
+    }),
+    getCardByCardmarketId: builder.query({
+      query: (id) => `/cards/cardmarket/${id}`,
+      providesTags: ['cards'],
+    }),
     getSetByCode: builder.query(
       {
         query: (code) => `/sets/${code}`,
@@ -33,5 +41,10 @@ export const scryfallApi = createApi({
   }),
 });
 export const {
-  useGetRandomCardQuery, useGetAllSymbolsQuery, useGetCardByNameQuery, useGetSetByCodeQuery,
+  useGetRandomCardQuery,
+  useGetAllSymbolsQuery,
+  useGetCardByNameQuery,
+  useGetSetByCodeQuery,
+  useGetCardByTcgIdQuery,
+  useGetCardByCardmarketIdQuery,
 } = scryfallApi;
