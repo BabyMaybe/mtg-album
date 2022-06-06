@@ -31,7 +31,7 @@ const MtgCard = ({ card }) => {
   }
 
   const displayCard = cardData.card_faces ? cardData.card_faces[0] : cardData;
-
+  console.log('displayCard :>> ', displayCard);
   return (
     <div className="mtg-card">
 
