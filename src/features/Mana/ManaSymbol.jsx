@@ -1,4 +1,4 @@
-import { useGetAllSymbolsQuery } from '../../api/scryfall.api';
+import { useGetAllSymbolsQuery } from '../../api/scryfall/symbols.api';
 
 const ManaSymbol = ({ mana }) => {
   const { data: allSymbols, isLoading } = useGetAllSymbolsQuery();

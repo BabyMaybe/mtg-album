@@ -25,7 +25,7 @@ module.exports = {
       props: true,
       ignorePropertyModificationsFor: ['state'],
     }],
-    'import/prefer-default-export': 'warn',
+    'import/prefer-default-export': 'off',
     'no-unused-vars': 'warn',
     'import/no-extraneous-dependencies': 'off',
     'react/function-component-definition': ['error', {

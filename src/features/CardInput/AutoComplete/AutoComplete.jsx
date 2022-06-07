@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-expressions */
 import { useState } from 'react';
-import { useAutoCompleteQuery } from '../../../api/scryfall.api';
+import { useAutoCompleteQuery } from '../../../api/scryfall/card.api';
 import Suggestions from './Suggestions';
 import './autocomplete.scss';
 

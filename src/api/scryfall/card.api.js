@@ -1,24 +1,9 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { scryfallApi } from './scryfall.api';
 
-export const scryfallApi = createApi({
-  reducerPath: 'scryfallApi',
-  baseQuery: fetchBaseQuery({
-    baseUrl: 'https://api.scryfall.com',
-  }),
-  tagTypes: ['symbols', 'cards', 'sets'],
+const cardApi = scryfallApi.injectEndpoints({
   endpoints: (builder) => ({
     getRandomCard: builder.query({
       query: () => '/cards/random',
-    }),
-    getAllSymbols: builder.query({
-      query: () => '/symbology',
-      transformResponse: (response) => response.data
-        .reduce((acc, { english, svg_uri: url, symbol }) => {
-          // eslint-disable-next-line no-param-reassign
-          acc[symbol] = { english, symbol, url };
-          return acc;
-        }, {}),
-      providesTags: ['symbols'],
     }),
     getCardByName: builder.query({
       query: (name) => `/cards/named?fuzzy=${name}`,
@@ -32,12 +17,9 @@ export const scryfallApi = createApi({
       query: (id) => `/cards/cardmarket/${id}`,
       providesTags: ['cards'],
     }),
-    getSetByCode: builder.query(
-      {
-        query: (code) => `/sets/${code}`,
-        providesTags: ['sets'],
-      },
-    ),
+    getCardsInSet: builder.query({
+      query: (setId) => `/cards/search?q=s:${setId}`,
+    }),
     getCollection: builder.mutation({
       query: (cardList) => {
         console.log('looking up');
@@ -64,13 +46,13 @@ export const scryfallApi = createApi({
     }),
   }),
 });
+
 export const {
   useGetRandomCardQuery,
-  useGetAllSymbolsQuery,
   useGetCardByNameQuery,
-  useGetSetByCodeQuery,
   useGetCardByTcgIdQuery,
+  useGetCardsInSetQuery,
   useGetCardByCardmarketIdQuery,
   useGetCollectionMutation,
   useAutoCompleteQuery,
-} = scryfallApi;
+} = cardApi;

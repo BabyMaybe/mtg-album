@@ -1,10 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import CardBuilder from './features/cardBuilder/CardBuilder';
+import Sets from './features/Sets/Sets';
+import SingleSet from './features/Sets/SingleSet';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -12,7 +16,16 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="sets">
+            <Route index element={<Sets />} />
+            <Route path=":setId" element={<SingleSet />} />
+          </Route>
+          <Route path="/cards" element={<CardBuilder />} />
+        </Routes>
+      </BrowserRouter>
     </Provider>
   </React.StrictMode>,
 );

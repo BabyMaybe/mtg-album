@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-expressions */
 import {
   useGetCardByNameQuery,
-  useGetSetByCodeQuery,
   useGetCardByTcgIdQuery,
   useGetCardByCardmarketIdQuery,
-} from '../../api/scryfall.api';
+} from '../../api/scryfall/card.api';
+import { useGetSetByCodeQuery } from '../../api/scryfall/set.api';
+
 import logo from '../../assets/magic_logo.svg';
 import ManaCost from '../Mana/ManaCost';
 import './MtgCard.css';

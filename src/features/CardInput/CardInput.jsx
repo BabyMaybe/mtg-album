@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import { useState } from 'react';
-import { useGetCollectionMutation } from '../../api/scryfall.api';
+import { useGetCollectionMutation } from '../../api/scryfall/card.api';
 import './CardInput.scss';
 
 const CardInput = () => {
