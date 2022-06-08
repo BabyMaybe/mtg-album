@@ -1,5 +1,7 @@
 import { scryfallApi } from './scryfall.api';
 
+const MAX_PAGE_SIZE = 175;
+
 const cardApi = scryfallApi.injectEndpoints({
   endpoints: (builder) => ({
     getRandomCard: builder.query({
@@ -20,6 +22,34 @@ const cardApi = scryfallApi.injectEndpoints({
     getCardsInSet: builder.query({
       query: (setId) => `/cards/search?q=s:${setId}`,
     }),
+    getAllCardsInSet: builder.query({
+      // query: (setId) => `/cards/search?q=s:${setId}`,
+      async queryFn(
+        setCode,
+        queryApi,
+        extraOptions,
+        baseQuery,
+      ) {
+        const setLookup = await baseQuery(`/sets/${setCode}`);
+        const setObj = setLookup.data;
+
+        const pages = Math.ceil(setObj.card_count / MAX_PAGE_SIZE) + 1;
+
+        const promises = [];
+        for (let i = 1; i < pages; i++) {
+          const pageUri = `${setObj.search_uri}&page=${i}`;
+          promises.push(baseQuery(pageUri));
+        }
+
+        const results = await Promise.all(promises);
+
+        const cardData = results.map((r) => r.data.data).flat();
+        const errors = results.map((r) => r.errors).flat().filter((e) => e);
+
+        return errors.length ? { error: errors } : { data: { cards: cardData, set: setObj } };
+      },
+    }),
+
     getCollection: builder.mutation({
       query: (cardList) => {
         console.log('looking up');
@@ -52,6 +82,7 @@ export const {
   useGetCardByNameQuery,
   useGetCardByTcgIdQuery,
   useGetCardsInSetQuery,
+  useGetAllCardsInSetQuery,
   useGetCardByCardmarketIdQuery,
   useGetCollectionMutation,
   useAutoCompleteQuery,

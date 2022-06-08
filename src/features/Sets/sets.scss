@@ -3,23 +3,38 @@
   width: 100vw;
   flex-wrap: wrap;
 
-  .set {
-    border: solid peachpuff 3px;
-    padding: 1em;
-
-    .set-name {
-
+  a {
+    text-decoration: none;
+    &:visited {
+      text-decoration: none;
     }
+  }
+  .set {
+    border: solid deeppink 3px;
+    color: darkblue;
+    font-weight: bold;
+    padding: .75em;
+    margin: 2px;
+    &:hover {
+      background: deeppink;
+      color: white;
+      border-color: darkblue;
+    }
+    // .set-name {
+    //   color: deepskyblue;
+    // }
+
 
     .set-code {
       font-weight: bold;
       text-transform: uppercase;
     }
+
   }
 }
 
 .svg {
   width: 50px;
   height: 50px;
-  background-color: crimson;
+  background-color: deeppink;
 }

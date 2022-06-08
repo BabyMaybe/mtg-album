@@ -25,6 +25,7 @@ module.exports = {
       props: true,
       ignorePropertyModificationsFor: ['state'],
     }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'warn',
     'import/no-extraneous-dependencies': 'off',

@@ -1,35 +1,35 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
-import { useGetCardsInSetQuery } from '../../api/scryfall/card.api';
 import { useGetSetByCodeQuery } from '../../api/scryfall/set.api';
-import { selectSet } from '../../app/app.slice';
+import Checklist from '../Checklist/Checklist';
 
 const SingleSet = () => {
-  const params = useParams();
-  const { data: setData } = useGetSetByCodeQuery(params.setId);
-  const { data: setCards } = useGetCardsInSetQuery(params.setId);
-  console.log('data :>> ', setData);
-  console.log('setCards :>> ', setCards);
-  if (!setData) return null;
+  const { setId } = useParams();
+  const { data, error, isLoading } = useGetSetByCodeQuery(setId);
+
+  if (isLoading) return <h1>Loading...</h1>;
 
   return (
     <div className="set">
       <h1>
         [
-        {setData.code.toUpperCase()}
+        {data.code.toUpperCase()}
         ]
         {' '}
-        {setData.name}
+        {data.name}
       </h1>
       <h3>
         (
-        {setData.released_at}
+        {data.released_at}
         )
       </h3>
-      <h2>{`Cards: ${setData.card_count}`}</h2>
-      <img className="svg" src={setData.icon_svg_uri} alt="" />
+      <h2>{`Cards: ${data.card_count}`}</h2>
+      <img className="svg" src={data.icon_svg_uri} alt="" />
       <Link to="..">Meow</Link>
+      <h1>Main Set</h1>
+      <Checklist setCode={setId} main />
+      <h1>Collectors</h1>
+      <Checklist setCode={setId} />
     </div>
 
   );
