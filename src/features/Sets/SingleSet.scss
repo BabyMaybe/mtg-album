@@ -1,0 +1,41 @@
+.single-set {
+  // background-color: tomato;
+
+  .single-set-header {
+    display: flex;
+    border-bottom: solid black 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: .25em 1em;
+
+    background: linear-gradient(.97turn, deeppink 20%, white, deepskyblue 80%);
+    .set-icon {
+      width: 5em;
+      height: 5em;
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      border: solid black 3px;
+      border-radius: 12px;
+      padding: .5em;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 4em;
+        height: 3.75em;
+      }
+      .set-code {
+        font-weight: bold;
+        font-size: 1.25em;
+        // margin: .25em auto;
+        // margin-top: .25em;
+        text-align: center;
+        display: block;
+      }
+    }
+
+    .set-stats {
+
+    }
+  }
+}

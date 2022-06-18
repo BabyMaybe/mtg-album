@@ -1,0 +1,34 @@
+.sets2 {
+  // background: deepskyblue;
+  
+  h1 {
+    // flex: 1 0 100%;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: springgreen;
+  }
+  .set-section {
+    border-bottom: solid deepskyblue 5px;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    .set {
+      border: solid deeppink 3px;
+      padding: .25em;
+      margin: .25em;
+      min-width: 5em;
+      max-height: 4em;
+      flex: 1 1 5em;
+      overflow: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color:darkblue;
+      color: white;
+    }
+  }
+}
