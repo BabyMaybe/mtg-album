@@ -1,0 +1,119 @@
+﻿Name,Type,Color,Rarity,Author,Power,Toughness,Mana cost,Converted mana cost,Count,Foil count,Special foil count,Price,Foil price,Number,Set,ID,Multiverse ID,Comments,To trade,Condition,Grading,Languages,TCG ID,Cardmarket ID,Deck count,Sideboard count,Maybeboard count
+"Angelic Observer","Creature - Angel Advisor",White,Uncommon,"Zack Stella",3,3,(5)(W),6,1,0,0,$0.05,$0.14,1,"Streets of New Capenna",72838,555202,,0,,,,268760,651687,1,0,0
+"Gathering Throng","Creature - Human Citizen",White,Common,"Randy Vargas",3,1,(2)(W),3,1,0,0,$0.04,$0.04,13,"Streets of New Capenna",72850,555214,,0,,,,269059,652155,4,0,0
+"Giada, Font of Hope","Legendary Creature - Angel",White,Rare,"Eric Deschamps",2,2,(1)(W),2,1,0,0,$2.93,$3.59,14,"Streets of New Capenna",72851,555215,,0,,,,269062,652156,1,0,0
+"Inspiring Overseer","Creature - Angel Cleric",White,Common,"Irina Nordsol",2,1,(2)(W),3,1,0,0,$0.11,$0.21,18,"Streets of New Capenna",72855,555219,,0,,,,269065,652157,1,0,0
+"Kyodai, Soul of Kamigawa","Legendary Creature - Dragon Spirit",White,Rare,"Daniel Zrom",3,3,(3)(W),4,1,0,0,$0.20,$0.43,23,"Kamigawa: Neon Dynasty",71570,548316,,0,,,,262037,607029,1,0,0
+"Sanctuary Warden","Creature - Angel Soldier",White,Mythic,"Johannes Voss",5,5,(4)(W)(W),6,1,0,0,$1.66,$2.00,30,"Streets of New Capenna",72867,555231,,0,,,,268919,652160,1,0,0
+"Sky Crier","Creature - Bird Citizen",White,Common,"Raoul Vitale",1,1,(1)(W),2,1,0,0,$0.04,$0.07,31,"Streets of New Capenna",72868,555232,,0,,,,269120,652161,1,0,0
+"Planar Ally","Creature - Angel",White,Common,"Marta Nael",3,3,(3)(W)(W),5,1,0,0,$0.06,$0.16,31,"Adventures in the Forgotten Realms",66167,527318,,0,1xMint,,1xEnglish,243210,571304,1,0,0
+"Paragon of Modernity","Artifact Creature - Angel Warrior",Colorless,Common,"Volkan Baǵa",2,2,(4),4,1,0,0,$0.04,$0.15,242,"Streets of New Capenna",73079,555443,,0,,,,269101,652215,1,0,0
+"Halo Fountain","Artifact",White,Mythic,"Anastasia Ovchinnikova",0,0,(2)(W),3,1,1,0,$3.81,$4.96,15,"Streets of New Capenna",72852,555216,,0,,,,268356,651363,1,0,0
+"Portable Hole","Artifact",White,Uncommon,"John Stanko",0,0,(W),1,1,1,0,$1.76,$3.23,33,"Adventures in the Forgotten Realms",66169,527320,,0,1xMint,,1xEnglish,239192,569034,1,0,0
+"Citizen's Crowbar","Artifact - Equipment",White,Uncommon,"Slawomir Maniak",0,0,(1)(W),2,1,0,0,$0.08,$0.13,8,"Streets of New Capenna",72845,555209,,0,,,,268913,652153,1,0,0
+"Dancing Sword","Artifact - Equipment",White,Rare,"Wisnu Tan",0,0,(1)(W),2,1,0,0,$0.29,$0.60,360,"Adventures in the Forgotten Realms Collectors",66436,530481,,0,1xMint,,1xEnglish,243287,571403,1,0,0
+"Getaway Car","Artifact - Vehicle",Colorless,Rare,"Donato Giancola",4,3,(3),3,1,0,0,$0.11,$0.16,237,"Streets of New Capenna",73074,555438,,0,,,,268360,651377,1,0,0
+"Imperial Recovery Unit","Artifact - Vehicle",White,Uncommon,"Steve Prescott",3,4,(2)(W),3,2,0,0,$0.11,$0.28,18,"Kamigawa: Neon Dynasty",71565,548311,,0,2xMint,,2xEnglish,262716,608181,1,0,0
+"The Restoration of Eiganjo","Enchantment - Saga",White,Rare,"Titus Lunter",0,0,(2)(W),3,1,0,0,$0.35,$0.50,34,"Kamigawa: Neon Dynasty",71582,548328,,0,,,,262322,607398,1,0,0
+"Boon of Safety","Instant",White,Common,"Robin Olausson",0,0,(W),1,1,0,0,$0.10,$0.12,4,"Streets of New Capenna",72841,555205,,0,,,,269046,652151,1,0,0
+"Kill Shot","Instant",White,Common,"Josh Hass",0,0,(2)(W),3,1,0,0,$0.03,$0.03,19,"Streets of New Capenna",72856,555220,,0,,,,269067,652158,1,0,0
+"Light the Way","Instant",White,Common,"Benjamin Ee",0,0,(W),1,1,0,0,$0.10,$0.10,24,"Kamigawa: Neon Dynasty",71571,548317,,0,,,,262306,607402,1,0,0
+"Refuse to Yield","Instant",White,Uncommon,"Josh Hass",0,0,(1)(W),2,1,0,0,$0.11,$0.11,27,"Streets of New Capenna",72864,555228,,0,1xMint,,1xEnglish,268752,651692,1,0,0
+"Wanderer's Intervention","Instant",White,Common,"Cristi Balanescu",0,0,(1)(W),2,2,0,0,$0.06,$0.13,41,"Kamigawa: Neon Dynasty",71590,548336,,0,2xMint,,2xEnglish,262693,608190,1,0,0
+"Raffine's Guidance","Enchantment - Aura",White,Common,"Rémi Jacquot",0,0,(W),1,1,0,0,$0.08,$0.11,25,"Streets of New Capenna",72862,555226,,0,,,,268681,651622,1,0,0
+"The Wandering Emperor","Legendary Planeswalker",White,Mythic,"William Arnold",0,0,(2)(W)(W),4,2,1,0,$35.18,$41.34,42,"Kamigawa: Neon Dynasty",71591,548337,,0,,,,262039,607030,1,0,0
+"Bag of Holding","Artifact",Colorless,Uncommon,"Evyn Fong",0,0,(1),1,1,0,0,$0.11,$0.13,299,"Commander Legends: Battle for Baldur's Gate",74851,0,,0,1xMint,,1xEnglish,273363,660829,1,0,0
+"Arc Spitter","Artifact - Equipment",Colorless,Uncommon,"Matt Forsyth",0,0,(1),1,2,1,0,$0.07,$0.07,233,"Streets of New Capenna",73070,555434,,0,,,,268653,651657,1,0,0
+"Cement Shoes","Artifact - Equipment",Colorless,Uncommon,"Mark Behm",0,0,(1),1,1,0,0,$0.03,$0.06,235,"Streets of New Capenna",73072,555436,,0,,,,269090,652121,1,0,0
+"Extraction Specialist","Creature - Human Rogue",White,Rare,"Irina Nordsol",3,2,(2)(W),3,1,0,0,$0.39,$0.74,12,"Streets of New Capenna",72849,555213,,0,,,,268761,651689,1,0,0
+"Dawnbringer Cleric","Creature - Human Cleric",White,Common,"Lie Setiawan",1,3,(1)(W),2,1,0,0,$0.10,$0.15,15,"Commander Legends: Battle for Baldur's Gate",74544,0,,0,1xMint,,1xEnglish,273310,660842,1,0,0
+"Hold for Ransom","Enchantment - Aura",White,Common,"Nestor Ossandon Leal",0,0,(1)(W),2,1,0,0,$0.06,$0.06,16,"Streets of New Capenna",72853,555217,,0,,,,268762,651831,1,0,0
+"Patch Up","Sorcery",White,Uncommon,"Scott Murphy",0,0,(2)(W),3,1,0,0,$0.13,$0.24,23,"Streets of New Capenna",72860,555224,,0,,,,268910,652087,1,0,0
+"Invoke Justice","Sorcery",White,Rare,"Kekai Kotaki",0,0,(1)(W)(W)(W)(W),5,1,0,0,$0.16,$0.29,21,"Kamigawa: Neon Dynasty",71568,548314,,0,1xMint,,1xEnglish,262407,607508,1,0,0
+"Mothrider Patrol","Creature - Fox Warrior",White,Common,"Ilse Gort",1,1,(W),1,1,0,0,$0.11,$0.11,30,"Kamigawa: Neon Dynasty",71578,548324,,0,,,,262703,608185,1,0,0
+"Plains","Basic Land - Plains",Colorless,Common,"Bruce Brenneise",0,0,,0,2,1,0,$0.00,$0.35,451,"Commander Legends: Battle for Baldur's Gate",74914,0,,0,2xMint,,2xEnglish,272711,0,20,0,0
+"Ranger's Hawk","Creature - Bird",White,Common,"Robin Olausson",1,1,(W),1,1,1,0,$0.04,$0.15,37,"Adventures in the Forgotten Realms",66172,527324,,0,1xMint,,1xEnglish,243218,571099,1,0,0
+"Iron Apprentice","Artifact Creature - Construct",Colorless,Common,"Kekai Kotaki",0,0,(1),1,1,0,0,$0.07,$0.22,248,"Kamigawa: Neon Dynasty",71815,548561,,0,,,,262708,608289,1,0,0
+"Backup Agent","Creature - Human Citizen",White,Common,"Aaron J. Riley",1,1,(1)(W),2,1,0,0,$0.03,$0.04,2,"Streets of New Capenna",72839,555203,,0,,,,269043,652150,1,0,0
+"Suspicious Bookcase","Artifact Creature - Wall",Colorless,Uncommon,"Josu Hernaiz",0,4,(2),2,1,0,0,$0.04,$0.08,245,"Streets of New Capenna",73082,555446,,0,,,,268544,651658,1,0,0
+"Selfless Samurai","Creature - Fox Samurai",White,Uncommon,"PINDURSKI",2,2,(1)(W),2,1,0,0,$0.15,$0.15,35,"Kamigawa: Neon Dynasty",71584,548330,,0,,,,262597,608188,1,0,0
+"Banishing Slash","Sorcery",White,Uncommon,"Josu Hernaiz",0,0,(W)(W),2,2,0,0,$0.15,$0.20,3,"Kamigawa: Neon Dynasty",71547,548293,,0,2xMint,,2xEnglish,262189,607325,0,0,1
+"Befriending the Moths","Enchantment - Saga",White,Common,"Matt Stewart",0,0,(3)(W),4,2,1,0,$0.08,$0.08,4,"Kamigawa: Neon Dynasty",71548,548294,,0,2xMint,,2xEnglish,262183,607052,0,0,1
+"Brilliant Restoration","Sorcery",White,Rare,"Wylie Beckert",0,0,(3)(W)(W)(W)(W),7,1,0,0,$0.32,$0.48,7,"Kamigawa: Neon Dynasty",71552,548298,,0,,,,262298,607393,0,0,1
+"Era of Enlightenment","Enchantment - Saga",White,Common,"Amayagido",0,0,(1)(W),2,1,0,0,$0.07,$0.07,11,"Kamigawa: Neon Dynasty",71556,548302,,0,,,,261972,607009,0,0,1
+"Dragonfly Suit","Artifact - Vehicle",White,Common,"Darren Tan",3,2,(2)(W),3,1,0,0,$0.08,$0.08,9,"Kamigawa: Neon Dynasty",71554,548300,,0,,,,262732,608176,0,0,1
+"Illuminator Virtuoso","Creature - Human Rogue",White,Uncommon,"John Stanko",1,1,(1)(W),2,1,0,0,$0.11,$0.21,17,"Streets of New Capenna",72854,555218,,0,,,,268519,651690,0,0,1
+"Imperial Subduer","Creature - Human Samurai",White,Common,"Yunomachi",3,2,(2)(W),3,2,0,0,$0.06,$0.07,310,"Kamigawa: Neon Dynasty Collectors",71883,553219,,0,2xMint,,2xEnglish,262377,607168,0,0,1
+"March of Otherworldly Light","Instant",White,Rare,"Gozz",0,0,(X)(W),1,1,0,0,$7.69,$14.37,369,"Kamigawa: Neon Dynasty Collectors",71951,552243,,0,,,,262142,607101,0,0,1
+"Norika Yamazaki, the Poet","Legendary Creature - Human Samurai",White,Uncommon,"Magali Villeneuve",3,2,(2)(W),3,2,0,0,$0.13,$0.13,31,"Kamigawa: Neon Dynasty",71579,548325,,0,2xMint,,2xEnglish,262418,607396,0,0,1
+"Regent's Authority","Instant",White,Common,"A. M. Sartor",0,0,(W),1,1,0,0,$0.12,$0.12,32,"Kamigawa: Neon Dynasty",71580,548326,,0,,,,262697,608186,0,0,1
+"Skyclave Apparition","Creature - Kor Spirit",White,Rare,"Mila Pesic",2,2,(1)(W)(W),3,1,1,0,$8.28,$8.28,2,"Game Day Promos",74523,0,,0,,,,272569,656537,0,0,1
+"Sky-Blessed Samurai","Enchantment Creature - Human Samurai",White,Uncommon,"Victor Adame Minguez",4,4,(6)(W),7,2,0,0,$0.11,$0.18,37,"Kamigawa: Neon Dynasty",71586,548332,,0,2xMint,,2xEnglish,262598,607633,0,0,1
+"The Fall of Lord Konda","Enchantment - Saga",White,Uncommon,"Andrew Mar",0,0,(2)(W),3,1,0,0,$0.10,$0.12,12,"Kamigawa: Neon Dynasty",71558,548304,,0,1xMint,,1xEnglish,262410,607515,0,0,1
+"When We Were Young","Instant",White,Uncommon,"Eric Deschamps",0,0,(3)(W),4,2,0,0,$1.13,$1.13,43,"Kamigawa: Neon Dynasty",71592,548338,,0,2xMint,,2xEnglish,262624,608191,0,0,1
+"Chrome Cat","Artifact Creature - Cat",Colorless,Common,"Joe Slucher",3,2,(3),3,1,0,0,$0.02,$0.12,236,"Streets of New Capenna",73073,555437,,0,,,,268364,651264,0,0,1
+"High-Speed Hoverbike","Artifact - Vehicle",Colorless,Uncommon,"Julian Kok Joon Wen",2,2,(2),2,1,0,0,$0.11,$0.15,247,"Kamigawa: Neon Dynasty",71814,548560,,0,,,,262258,607374,0,0,1
+"Halo Scarab","Artifact Creature - Insect",Colorless,Common,"Khurrum",2,1,(2),2,1,0,0,$0.06,$0.06,239,"Streets of New Capenna",73076,555440,,0,,,,269095,652213,0,0,1
+"Mech Hangar","Land",Colorless,Uncommon,"Julian Kok Joon Wen",0,0,,0,1,0,0,$0.15,$0.36,270,"Kamigawa: Neon Dynasty",71837,548583,,0,,,,262634,608303,0,0,1
+"Ninja's Kunai","Artifact - Equipment",Colorless,Common,"Tomasz Jedruszek",0,0,(1),1,1,0,0,$0.04,$0.04,252,"Kamigawa: Neon Dynasty",71819,548565,,0,,,,262715,608291,0,0,1
+"Reckoner Bankbuster","Artifact - Vehicle",Colorless,Rare,"Steve Prescott",4,4,(2),2,1,0,0,$0.62,$0.70,255,"Kamigawa: Neon Dynasty",71822,548568,,0,,,,262560,607578,0,0,1
+"Reito Sentinel","Artifact Creature - Construct",Colorless,Uncommon,"David Auden Nash",3,3,(3),3,1,0,0,$0.10,$0.10,256,"Kamigawa: Neon Dynasty",71823,548569,,0,,,,262613,607650,0,0,1
+"Runaway Trash-Bot","Artifact Creature - Construct",Colorless,Uncommon,"Nicholas Gregory",0,4,(3),3,1,0,0,$0.06,$0.13,257,"Kamigawa: Neon Dynasty",71824,548570,,0,,,,262154,607197,0,0,1
+"Roadside Reliquary","Land",Colorless,Uncommon,"Robin Olausson",0,0,,0,1,0,0,$0.16,$0.49,272,"Kamigawa: Neon Dynasty",71839,548585,,0,,,,262747,608304,0,0,1
+"Searchlight Companion","Artifact Creature - Drone",Colorless,Common,"Rudy Siswanto",1,1,(3),3,1,0,0,$0.06,$0.06,258,"Kamigawa: Neon Dynasty",71825,548571,,0,,,,262723,608294,0,0,1
+"Surgehacker Mech","Artifact - Vehicle",Colorless,Rare,"Wisnu Tan",5,5,(4),4,2,0,0,$0.15,$0.22,260,"Kamigawa: Neon Dynasty",71827,548573,,0,2xMint,,2xEnglish,262054,607039,0,0,1
+"Thundersteel Colossus","Artifact - Vehicle",Colorless,Common,"Victor Adame Minguez",7,7,(7),7,1,0,0,$0.02,$0.17,261,"Kamigawa: Neon Dynasty",71828,548574,,0,,,,262730,608296,0,0,1
+"Walking Skyscraper","Artifact Creature - Construct",Colorless,Uncommon,"David Auden Nash",8,8,(8),8,2,0,0,$0.10,$0.13,263,"Kamigawa: Neon Dynasty",71830,548576,,0,2xMint,,2xEnglish,262433,607513,0,0,1
+"Unlicensed Hearse","Artifact - Vehicle",Colorless,Rare,"Chris Seaman",0,0,(2),2,1,0,0,$6.86,$8.62,246,"Streets of New Capenna",73083,555447,,0,,,,268735,651866,0,0,1
+"Armed and Armored","Instant",White,Uncommon,"Svetlin Velinov",0,0,(1)(W),2,1,0,0,$0.14,$0.14,80,"Neon Dynasty Commander",72137,554163,,0,1xMint,,1xEnglish,263062,608592,0,0,1
+"Brilliant Restoration","Sorcery",White,Rare,"Totetsu Kondo",0,0,(3)(W)(W)(W)(W),7,1,0,0,$0.54,$1.38,363,"Kamigawa: Neon Dynasty Collectors",71945,552237,,0,1xMint,,1xEnglish,262301,607394,0,0,1
+"Cloister Gargoyle","Artifact Creature - Gargoyle",White,Uncommon,"Russ Nicholson",0,4,(2)(W),3,1,0,0,$0.03,$0.03,504,"The List",71330,0,,0,,,,248625,575984,0,0,1
+"Eiganjo Exemplar","Enchantment Creature - Human Samurai",White,Common,"Yamada Rokkaku",2,1,(1)(W),2,1,0,0,$0.06,$0.11,309,"Kamigawa: Neon Dynasty Collectors",71882,553218,,0,,,,262851,608320,0,0,1
+"Kitsune Ace","Creature - Fox Pilot",White,Common,"Joseph Weston",2,2,(1)(W),2,1,0,0,$0.10,$0.10,22,"Kamigawa: Neon Dynasty",71569,548315,,0,,,,262710,608183,0,0,1
+"Michiko's Reign of Truth","Enchantment - Saga",White,Uncommon,"Volkan Baǵa",0,0,(1)(W),2,2,1,0,$0.10,$0.32,29,"Kamigawa: Neon Dynasty",71576,548322,,0,2xMint,,2xEnglish,261980,607003,0,0,1
+"Raffine's Informant","Creature - Human Wizard",White,Common,"John Stanko",2,1,(1)(W),2,1,0,0,$0.06,$0.11,26,"Streets of New Capenna",72863,555227,,0,,,,268648,651691,0,0,1
+"Selfless Samurai","Creature - Fox Samurai",White,Uncommon,"Ishikawa Kenta",2,2,(1)(W),2,1,0,0,$0.12,$0.18,312,"Kamigawa: Neon Dynasty Collectors",71885,553221,,0,1xMint,,1xEnglish,262614,607654,0,0,1
+"Seven-Tail Mentor","Creature - Fox Samurai",White,Common,"Aogachou",2,3,(3)(W),4,1,0,0,$0.06,$0.12,313,"Kamigawa: Neon Dynasty Collectors",71886,553222,,0,,,,262567,607587,0,0,1
+"Sunblade Samurai","Enchantment Creature - Human Samurai",White,Common,"Shirai Hidemi",4,4,(4)(W),5,2,0,0,$0.06,$0.15,315,"Kamigawa: Neon Dynasty Collectors",71888,553224,,0,2xMint,,2xEnglish,262198,607355,0,0,1
+"The Restoration of Eiganjo","Enchantment - Saga",White,Rare,"yo-ne",0,0,(2)(W),3,1,1,0,$0.69,$1.10,354,"Kamigawa: Neon Dynasty Collectors",71927,553020,,0,,,,262329,607399,0,0,1
+"Bronze Cudgels","Artifact - Equipment",Colorless,Uncommon,"Nestor Ossandon Leal",0,0,(1),1,1,0,0,$0.11,$0.14,240,"Kamigawa: Neon Dynasty",71807,548553,,0,,,,262699,608283,0,0,1
+"Brute Suit","Artifact - Vehicle",Colorless,Common,"Raymond Swanland",4,3,(3),3,1,0,0,$0.04,$0.07,241,"Kamigawa: Neon Dynasty",71808,548554,,0,,,,262700,608284,0,0,1
+"Colossal Plow","Artifact - Vehicle",Colorless,Uncommon,"Joe Slucher",6,3,(2),2,1,0,0,$0.19,$0.19,148,"Neon Dynasty Commander",72205,554230,,0,1xMint,,1xEnglish,263079,608962,0,0,1
+"Dungeon Descent","Land",Colorless,Rare,"Ralph Horsley",0,0,,0,1,0,0,$0.70,$1.40,352,"Adventures in the Forgotten Realms Collectors",66530,530836,,0,1xMint,,1xEnglish,243168,571285,0,0,1
+"Evolving Wilds","Land",Colorless,Common,"Mauricio Calle",0,0,,0,1,0,0,$0.06,$0.16,352,"Commander Legends: Battle for Baldur's Gate",74904,0,,0,1xMint,,1xEnglish,273364,660939,0,0,1
+"Evolving Wilds","Land",Colorless,Common,"Brian Snõddy",0,0,,0,1,0,0,$0.20,$1.30,353,"Adventures in the Forgotten Realms Collectors",66531,530837,,0,1xMint,,1xEnglish,242804,570767,0,0,1
+"Greataxe","Artifact - Equipment",Colorless,Common,"Kari Christensen",0,0,(1),1,1,1,0,$0.06,$0.16,245,"Adventures in the Forgotten Realms",66502,527532,,0,1xMint,,1xEnglish,243576,571884,0,0,1
+"Network Terminal","Artifact",Colorless,Common,"Andreas Zafiratos",0,0,(3),3,1,0,0,$0.06,$0.14,251,"Kamigawa: Neon Dynasty",71818,548564,,0,1xMint,,1xEnglish,262713,608290,0,0,1
+"Shrine Steward","Artifact Creature - Construct",Colorless,Common,"kleinerHai",3,2,(5),5,1,0,0,$0.07,$0.16,259,"Kamigawa: Neon Dynasty",71826,548572,,0,,,,262725,608295,0,0,1
+"Treasure Vault","Artifact Land",Colorless,Rare,"Johannes Voss",0,0,,0,1,0,0,$7.44,$10.09,261,"Adventures in the Forgotten Realms",66357,527548,,0,1xMint,,1xEnglish,243386,571540,0,0,1
+"Keen-Eared Sentry","Creature - Human Soldier",White,Uncommon,"Viko Menezes",2,1,(1)(W),2,1,0,0,$0.03,$0.08,22,"Adventures in the Forgotten Realms",66159,527309,,0,1xMint,,1xEnglish,243217,571328,0,0,1
+"Automated Artificer","Artifact Creature - Artificer",Colorless,Common,"Izzy",1,3,(2),2,1,0,0,$0.08,$0.14,239,"Kamigawa: Neon Dynasty",71806,548552,,0,,,,262696,608282,0,0,1
+"Containment Construct","Artifact Creature - Construct",Colorless,Uncommon,"Julian Kok Joon Wen",2,1,(2),2,2,0,0,$0.52,$1.24,243,"Kamigawa: Neon Dynasty",71810,548556,,0,2xMint,,2xEnglish,262886,608285,0,0,1
+"Priest of Ancient Lore","Creature - Dwarf Cleric",White,Common,"Jarel Threat",2,1,(2)(W),3,1,0,0,$0.07,$0.20,35,"Adventures in the Forgotten Realms",66469,527322,,0,1xMint,,1xEnglish,243433,571843,0,0,1
+"Seven-Tail Mentor","Creature - Fox Samurai",White,Common,"Eelis Kyttanen",2,3,(3)(W),4,1,0,0,$0.06,$0.06,36,"Kamigawa: Neon Dynasty",71585,548331,,0,,,,262567,607586,0,0,1
+"Towashi Guide-Bot","Artifact Creature - Construct",Colorless,Uncommon,"Jinho Bae",2,1,(4),4,2,1,0,$0.06,$0.16,262,"Kamigawa: Neon Dynasty",71829,548575,,0,2xMint,,2xEnglish,262731,608297,0,0,1
+"Papercraft Decoy","Artifact Creature - Frog",Colorless,Common,"Brian Valeza",2,1,(2),2,2,1,0,$0.05,$0.12,253,"Kamigawa: Neon Dynasty",71820,548566,,0,,,,262718,608292,0,0,1
+"Rumor Gatherer","Creature - Elf Wizard",White,Uncommon,"Simon Dominic",2,1,(1)(W)(W),3,2,0,0,$0.16,$0.39,29,"Streets of New Capenna",72866,555230,,0,2xMint,,2xEnglish,268316,651365,0,0,1
+"Cloudsteel Kirin","Artifact Creature - Equipment Kirin",White,Rare,"Jonathan Kuo",3,2,(2)(W),3,2,0,0,$0.21,$0.37,8,"Kamigawa: Neon Dynasty",71553,548299,,0,2xMint,,2xEnglish,262596,607630,0,0,1
+"Raiders' Karve","Artifact - Vehicle",Colorless,Common,"Aaron Miller",4,4,(3),3,1,0,0,$0.10,$0.10,156,"Neon Dynasty Commander",72213,554238,,0,1xMint,,1xEnglish,263084,608970,0,0,1
+"Gilded Pinions","Artifact - Equipment",Colorless,Common,"Irina Nordsol",0,0,(2),2,1,0,0,$0.10,$0.14,238,"Streets of New Capenna",73075,555439,,0,,,,269092,652212,0,0,1
+"Colossal Plow","Artifact - Vehicle",Colorless,Uncommon,"Joe Slucher",6,3,(2),2,1,0,0,$0.11,$0.21,236,"Kaldheim",62344,503852,,0,1xMint,,1xEnglish,230749,532167,0,0,1
+"Mechtitan Core","Artifact - Vehicle",Colorless,Rare,"Victor Adame Minguez",2,4,(2),2,1,0,0,$0.24,$0.37,249,"Kamigawa: Neon Dynasty",71816,548562,,0,,,,262208,607358,0,0,1
+"Ominous Parcel","Artifact",Colorless,Common,"Joe Slucher",0,0,(1),1,1,0,0,$0.08,$0.08,241,"Streets of New Capenna",73078,555442,,0,1xMint,,1xEnglish,269099,652214,0,0,1
+"Imperial Oath","Sorcery",White,Common,"Nicholas Elias",0,0,(5)(W),6,1,0,0,$0.05,$0.05,17,"Kamigawa: Neon Dynasty",71564,548310,,0,,,,262719,608180,0,0,1
+"Revelation of Power","Instant",White,Common,"Eric Deschamps",0,0,(1)(W),2,1,0,0,$0.05,$0.05,28,"Streets of New Capenna",72865,555229,,0,,,,269123,652159,0,0,1
+"Repel the Vile","Instant",White,Common,"Dominik Mayer",0,0,(3)(W),4,2,0,0,$0.08,$0.08,33,"Kamigawa: Neon Dynasty",71581,548327,,0,2xMint,,2xEnglish,262695,608187,0,0,1
+"Felidar Retreat","Enchantment",White,Rare,"Ralph Horsley",0,0,(3)(W),4,1,0,0,$0.61,$0.61,199,"New Capenna Commander",73567,559771,,0,1xMint,,1xEnglish,269683,652781,0,0,1
+"Mage's Attendant","Creature - Cat Rogue",White,Uncommon,"Igor Kieryluk",3,2,(2)(W),3,1,0,0,$0.12,$0.15,21,"Streets of New Capenna",72858,555222,,0,,,,268498,651621,0,0,1
+"Circuit Mender","Artifact Creature - Insect",Colorless,Uncommon,"Hector Ortiz",2,3,(3),3,1,0,0,$0.14,$0.22,242,"Kamigawa: Neon Dynasty",71809,548555,,0,,,,262201,607330,0,0,1
+"Dramatist's Puppet","Artifact Creature - Construct",Colorless,Common,"Livia Prima",2,4,(4),4,2,0,0,$0.10,$0.10,244,"Kamigawa: Neon Dynasty",71811,548557,,0,2xMint,,2xEnglish,262702,608286,0,0,1
+"Treasure Chest","Artifact",Colorless,Rare,"Dan Scott",0,0,(3),3,1,1,0,$0.17,$0.28,252,"Adventures in the Forgotten Realms",66350,527539,,0,1xMint,,1xEnglish,243247,571356,0,0,1
+"Buy Your Silence","Sorcery",White,Common,"Tony Foti",0,0,(4)(W),5,1,0,0,$0.03,$0.04,6,"Streets of New Capenna",72843,555207,,0,,,,268753,651688,0,0,1
+"Ballroom Brawlers","Creature - Human Warrior",White,Uncommon,"John Stanko",3,5,(3)(W)(W),5,2,0,0,$0.04,$0.04,3,"Streets of New Capenna",72840,555204,,0,2xMint,,2xEnglish,268682,651619,0,0,1
+"Sunblade Samurai","Enchantment Creature - Human Samurai",White,Common,"Aaron Miller",4,4,(4)(W),5,1,0,0,$0.07,$0.10,39,"Kamigawa: Neon Dynasty",71588,548334,,0,,,,262197,607354,0,0,1
+"Speakeasy Server","Creature - Bird Citizen",White,Common,"Scott Murphy",3,3,(4)(W),5,2,1,0,$0.03,$0.03,32,"Streets of New Capenna",72869,555233,,0,,,,269121,652162,0,0,1
+"Knockout Blow","Instant",White,Uncommon,"Zoltan Boros",0,0,(2)(W),3,1,0,0,$0.11,$0.23,20,"Streets of New Capenna",72857,555221,,0,,,,268749,651832,0,0,1
+"Brass Knuckles","Artifact - Equipment",Colorless,Uncommon,"Yeong-Hao Han",0,0,(4),4,1,0,0,$0.08,$0.14,234,"Streets of New Capenna",73071,555435,,0,,,,268844,652120,0,0,1
+"Mysterious Limousine","Artifact - Vehicle",White,Rare,"Hector Ortiz",4,4,(3)(W)(W),5,2,2,0,$0.67,$0.67,462,"Streets of New Capenna",73119,558227,,0,2xMint,,2xEnglish,270803,651675,0,0,1
+"Celebrity Fencer","Creature - Elf Druid",White,Common,"Inka Schulz",3,2,(3)(W),4,2,1,0,$0.04,$0.10,7,"Streets of New Capenna",72844,555208,,0,,,,268729,651830,0,0,1
+"Dapper Shieldmate","Creature - Human Soldier",White,Common,"Greg Opalinski",2,2,(3)(W),4,1,0,0,$0.02,$0.04,9,"Streets of New Capenna",72846,555210,,0,,,,268902,652154,0,0,1

@@ -1,0 +1,90 @@
+1 Oji, the Exquisite Blade *CMDR* 
+1 Bag of Holding
+1 Basilisk Gate
+1 Bronze Walrus
+1 Campfire
+1 Circuit Mender
+1 Citadel Gate
+1 Command Tower
+1 Enchanted Carriage
+1 False Floor
+1 Fraying Line
+1 Gilded Pinions
+1 Gond Gate
+1 Heap Gate
+11 Island
+1 Kenku Artificer
+1 Meteor Golem
+1 Mirror of Life Trapping
+1 Myriad Landscape
+1 Mysterious Limousine
+1 Nautiloid Ship
+1 Otawara, Soaring City
+1 Pilgrim's Eye
+11 Plains
+1 Port Town
+1 Prairie Stream
+1 Reflecting Pool
+1 Replication Specialist
+1 Skybridge Towers
+1 Skycloud Expanse
+1 Skyswimmer Koi
+1 Solemn Simulacrum
+1 Temple of Enlightenment
+1 Tezzeret, Betrayer of Flesh
+1 The Council of Four
+1 The Deck of Many Things
+1 Tranquil Cove
+1 Tameshi, Reality Architect
+1 Arcane Signet
+1 Automated Artificer
+1 Brilliant Restoration
+1 Burnished Hart
+1 Clockwork Fox
+1 Covert Technician
+1 Decanter of Endless Water
+1 Dispatch
+1 Displacer Kitten
+1 Dragonfly Suit
+1 Dungeoneer's Pack
+1 Etherium Sculptor
+1 Foundry Inspector
+1 Gate Colossus
+1 Getaway Car
+1 High-Speed Hoverbike
+1 Indomitable Archangel
+1 Ironsoul Enforcer
+1 Manifold Key
+1 Mechtitan Core
+1 Michiko's Reign of Truth
+1 Mimic
+1 Minimus Containment
+1 Mobile Garrison
+1 Navigation Orb
+1 Network Disruptor
+1 Organic Extinction
+1 Patriar's Seal
+1 Planar Incision
+1 Reality Heist
+1 Reckoner Bankbuster
+1 Rug of Smothering
+1 Sol Ring
+1 Specter's Shroud
+1 Teshar, Ancestor's Apostle
+1 Treasure Chest
+1 Treasure Keeper
+1 Ugin, the Ineffable
+1 Unlicensed Hearse
+1 Vedalken Engineer
+1 Vexing Puzzlebox
+1 Wayfarer's Bauble
+Sideboard:
+
+1 Copy
+1 Knight
+1 Mechtitan
+2 Mouse
+1 Pilot
+1 Spirit
+1 Tezzeret, Betrayer of Flesh Emblem
+1 Treasure

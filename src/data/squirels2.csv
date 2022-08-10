@@ -1,0 +1,119 @@
+﻿Name,Type,Color,Rarity,Author,Power,Toughness,Mana cost,Converted mana cost,Count,Foil count,Special foil count,Price,Foil price,Number,Set,ID,Multiverse ID,Comments,To trade,Condition,Grading,Languages,TCG ID,Cardmarket ID,Deck count,Sideboard count,Maybeboard count
+"Forest","Basic Land - Forest",Colorless,Common,"Piotr Dura",0,0,,0,2,1,0,$0.07,$0.12,291,"Kamigawa: Neon Dynasty",71858,553468,,0,"","","",262761,608318,10,0,0
+"Plains","Basic Land - Plains",Colorless,Common,"Thomas Stoop",0,0,,0,2,1,0,$0.03,$0.12,263,"Streets of New Capenna",73100,559346,,0,"","","",268409,651266,10,0,0
+"Citadel Gate","Land - Gate",Colorless,Common,"Andreas Rocha",0,0,,0,4,0,0,$0.10,$0.29,349,"Commander Legends: Battle for Baldur's Gate",74901,563232,,0,"4xMint","","4xEnglish",273084,660768,1,0,0
+"Castle Ardenvale","Land",Colorless,Rare,"Volkan Baǵa",0,0,,0,1,0,0,$1.57,$1.57,391,"New Capenna Commander",73760,559963,,0,"1xMint","","1xEnglish",269692,652975,1,0,0
+"Command Tower","Land",Colorless,Common,"Muhammad Firdaus",0,0,,0,1,0,0,$0.10,$0.78,351,"Commander Legends: Battle for Baldur's Gate",74903,563234,,0,"1xMint","","1xEnglish",272580,658535,1,0,0
+"Fortified Village","Land",Colorless,Rare,"Cliff Childs",0,0,,0,1,0,0,$0.22,$0.22,404,"New Capenna Commander",73773,559976,,0,"1xMint","","1xEnglish",269407,652988,1,0,0
+"Oran-Rief, the Vastwood","Land",Colorless,Rare,"Mike Bierek",0,0,,0,1,0,0,$0.24,$0.24,173,"Neon Dynasty Commander",72230,554255,,0,"1xMint","","1xEnglish",263068,608992,1,0,0
+"Opal Palace","Land",Colorless,Common,"Andreas Rocha",0,0,,0,1,0,0,$0.13,$0.13,172,"Neon Dynasty Commander",72229,554254,,0,"","","",263067,608991,1,0,0
+"Reflecting Pool","Land",Colorless,Rare,"Alayna Danner",0,0,,0,3,2,0,$6.47,$12.19,358,"Commander Legends: Battle for Baldur's Gate",74910,563241,,0,"3xMint","","3xEnglish",267059,650839,1,0,0
+"Thriving Grove","Land",Colorless,Common,"Ravenna Tran",0,0,,0,1,0,0,$0.11,$0.11,439,"New Capenna Commander",73808,560011,,0,"1xMint","","1xEnglish",269621,653023,1,0,0
+"Canopy Vista","Land - Forest Plains",Colorless,Rare,"Adam Paquette",0,0,,0,1,0,0,$0.43,$0.43,389,"New Capenna Commander",73758,559961,,0,"1xMint","","1xEnglish",269403,652973,1,0,0
+"Windbrisk Heights","Land",Colorless,Rare,"Omar Rayyan",0,0,,0,1,0,0,$0.22,$0.22,447,"New Capenna Commander",73816,560019,,0,"1xMint","","1xEnglish",269712,653031,1,0,0
+"Boseiju, Who Endures","Legendary Land",Colorless,Rare,"Chris Ostrowski",0,0,,0,1,0,0,$29.77,$36.06,266,"Kamigawa: Neon Dynasty",71833,548579,,0,"","","",262050,607040,1,0,0
+"Blossoming Sands","Land",Colorless,Common,"Sarah Finnigan",0,0,,0,1,0,0,$0.05,$0.15,265,"Kamigawa: Neon Dynasty",71832,548578,,0,"","","",262735,608299,1,0,0
+"Awakening Zone","Enchantment",Green,Rare,"Johann Bodin",0,0,(2)(G),3,1,0,0,$0.93,$0.93,281,"New Capenna Commander",73650,559853,,0,"1xMint","","1xEnglish",269676,652865,1,0,0
+"Halo Fountain","Artifact",White,Mythic,"Anastasia Ovchinnikova",0,0,(2)(W),3,1,1,0,$4.58,$4.95,15,"Streets of New Capenna",72852,555216,,0,"","","",268356,651363,1,0,0
+"Battle Angels of Tyr","Creature - Angel Knight",White,Mythic,"Fajareka Setiawan",4,4,(2)(W)(W),4,1,1,0,$9.29,$13.66,9,"Commander Legends: Battle for Baldur's Gate",74536,562892,,0,"1xMint","","1xEnglish",272599,658448,1,0,0
+"Wyrm's Crossing Patrol","Creature - Human Soldier",White,Common,"Edgar Sánchez Hidalgo",1,1,(W),1,1,0,0,$0.08,$0.11,51,"Commander Legends: Battle for Baldur's Gate",74583,562934,,0,"1xMint","","1xEnglish",273441,660852,1,0,0
+"Hammers of Moradin","Creature - Dwarf Cleric",White,Uncommon,"Justine Cruz",3,3,(2)(W),3,2,1,0,$0.12,$0.29,25,"Commander Legends: Battle for Baldur's Gate",74555,562908,,0,"2xMint","","2xEnglish",273012,660711,1,0,0
+"Cloakwood Hermit","Legendary Enchantment - Background",Green,Uncommon,"Kai Carpenter",0,0,(2)(G),3,2,0,0,$0.08,$0.18,221,"Commander Legends: Battle for Baldur's Gate",74768,563104,,0,"2xMint","","2xEnglish",272604,658477,1,0,0
+"Cadira, Caller of the Small","Legendary Creature - Orc Ranger",Multicolors,Uncommon,"Pedro Potier",3,3,(1)(G)(W),3,1,0,0,$0.10,$0.11,417,"Commander Legends: Battle for Baldur's Gate Collectors",75363,570290,,0,"1xMint","","1xEnglish",272806,660753,1,0,0
+"Call the Coppercoats","Instant",White,Rare,"Cristi Balanescu",0,0,(2)(W),3,1,0,0,$0.68,$0.68,195,"New Capenna Commander",73562,559767,,0,"1xMint","","1xEnglish",269651,652776,1,0,0
+"Crash the Party","Instant",Green,Rare,"Ben Wootten",0,0,(5)(G),6,1,0,0,$0.19,$0.19,57,"New Capenna Commander",73516,0,,0,"1xMint","","1xEnglish",269590,652446,1,0,0
+"Martial Coup","Sorcery",White,Rare,"Greg Staples",0,0,(X)(W)(W),2,1,0,0,$0.18,$0.18,206,"New Capenna Commander",73574,559778,,0,"1xMint","","1xEnglish",269646,652790,1,0,0
+"One with the Kami","Enchantment - Aura",Green,Rare,"Justyna Gil",0,0,(3)(G),4,1,0,0,$0.33,$0.33,27,"Neon Dynasty Commander",72124,553924,,0,"1xMint","","1xEnglish",262984,608619,1,0,0
+"Scute Swarm","Creature - Insect",Green,Rare,"Alex Konstad",1,1,(2)(G),3,1,0,0,$1.68,$1.68,310,"New Capenna Commander",73679,559882,,0,"1xMint","","1xEnglish",269624,652894,1,0,0
+"Pegasus Guardian","Creature - Pegasus",White,Common,"Leanna Crossan",3,3,(5)(W),6,3,0,0,$0.08,$0.11,36,"Commander Legends: Battle for Baldur's Gate",74567,562919,,0,"3xMint","","3xEnglish",272980,659839,1,0,0
+"Boss's Chauffeur","Creature - Elf Citizen",White,Rare,"Yangtian Li",0,0,(4)(W),5,1,0,0,$0.34,$0.34,13,"New Capenna Commander",73471,0,,0,"1xMint","","1xEnglish",269588,652402,1,0,0
+"Carefree Swinemaster","Creature - Gnome Ranger",Green,Common,"Michal Ivan",1,4,(2)(G),3,2,0,0,$0.06,$0.13,219,"Commander Legends: Battle for Baldur's Gate",74766,563102,,0,"2xMint","","2xEnglish",273313,660906,1,0,0
+"Scepter of Celebration","Artifact - Equipment",Green,Rare,"Olena Richards",0,0,(2)(G),3,1,0,0,$0.43,$0.43,64,"New Capenna Commander",73523,0,,0,"1xMint","","1xEnglish",269604,652453,1,0,0
+"Decanter of Endless Water","Artifact",Colorless,Common,"Titus Lunter",0,0,(3),3,1,0,0,$0.11,$0.29,309,"Commander Legends: Battle for Baldur's Gate",74861,563192,,0,"1xMint","","1xEnglish",273372,660927,1,0,0
+"Marble Diamond","Artifact",Colorless,Common,"Gaboleps",0,0,(2),2,1,0,0,$0.08,$0.15,320,"Commander Legends: Battle for Baldur's Gate",74872,563203,,0,"1xMint","","1xEnglish",272575,658520,1,0,0
+"Moss Diamond","Artifact",Colorless,Common,"Gaboleps",0,0,(2),2,1,0,0,$0.06,$0.15,327,"Commander Legends: Battle for Baldur's Gate",74879,563210,,0,"1xMint","","1xEnglish",272574,658522,1,0,0
+"Sol Ring","Artifact",Colorless,Uncommon,"Mike Bierek",0,0,(1),1,4,0,0,$1.06,$1.06,168,"Crimson Vow Commander",70157,545788,,0,"","","",254201,584148,1,0,0
+"Rishkar, Peema Renegade","Legendary Creature - Elf Druid",Green,Rare,"Todd Lockwood",2,2,(2)(G),3,1,0,0,$0.34,$0.34,126,"Neon Dynasty Commander",72183,554208,,0,"1xMint","","1xEnglish",262996,608940,1,0,0
+"Jaheira, Friend of the Forest","Legendary Creature - Human Elf Druid",Green,Rare,"Mila Pesic",2,3,(2)(G),3,2,0,0,$2.13,$3.85,237,"Commander Legends: Battle for Baldur's Gate",74788,563120,,0,"2xMint","","2xEnglish",272931,659396,1,0,0
+"The Restoration of Eiganjo","Enchantment - Saga",White,Rare,"yo-ne",0,0,(2)(W),3,1,1,0,$0.73,$1.33,354,"Kamigawa: Neon Dynasty Collectors",71927,553020,,0,"","","",262329,607399,1,0,0
+"Azusa's Many Journeys","Enchantment - Saga",Green,Uncommon,"Lindsey Look",0,0,(1)(G),2,1,0,0,$0.03,$0.09,172,"Kamigawa: Neon Dynasty",71731,548477,,0,"","","",262000,607004,1,0,0
+"Teachings of the Kirin","Enchantment - Saga",Green,Rare,"Sam Burley",0,0,(1)(G),2,1,0,0,$0.10,$0.11,212,"Kamigawa: Neon Dynasty",71776,548522,,0,"","","",262015,607010,1,0,0
+"Jaheira's Respite","Instant",Green,Rare,"Mila Pesic",0,0,(4)(G),5,1,0,0,$0.84,$1.35,238,"Commander Legends: Battle for Baldur's Gate",74789,563121,,0,"1xMint","","1xEnglish",272584,658481,1,0,0
+"Vastwood Surge","Sorcery",Green,Uncommon,"Jason Rainville",0,0,(3)(G),4,1,0,0,$0.12,$0.12,133,"Neon Dynasty Commander",72190,554215,,0,"1xMint","","1xEnglish",263016,608947,1,0,0
+"Shamanic Revelation","Sorcery",Green,Rare,"Cynthia Sheppard",0,0,(3)(G)(G),5,1,0,0,$0.17,$0.17,129,"Neon Dynasty Commander",72186,554211,,0,"1xMint","","1xEnglish",263012,608943,1,0,0
+"Hunter's Insight","Instant",Green,Uncommon,"Jim Murray",0,0,(2)(G),3,1,0,0,$0.18,$0.18,119,"Neon Dynasty Commander",72176,554202,,0,"1xMint","","1xEnglish",263021,608934,1,0,0
+"Speakeasy Server","Creature - Bird Citizen",White,Common,"Scott Murphy",3,3,(4)(W),5,2,1,0,$0.04,$0.06,32,"Streets of New Capenna",72869,555233,,0,"","","",269121,652162,1,0,0
+"Social Climber","Creature - Human Druid",Green,Common,"Carly Mazur",3,2,(2)(G),3,1,0,0,$0.07,$0.07,157,"Streets of New Capenna",72994,555358,,0,"","","",268746,651850,1,0,0
+"Venom Connoisseur","Creature - Human Druid",Green,Uncommon,"Marta Nael",2,2,(1)(G),2,1,0,0,$0.07,$0.14,161,"Streets of New Capenna",72998,555362,,0,"","","",268794,651851,1,0,0
+"Privileged Position","Enchantment",Multicolors,Rare,"Wayne England",0,0,(2)(GW)(GW)(GW),5,1,0,0,$4.11,$6.20,263,"Double Masters 2022",76153,0,,0,"1xMint","","1xEnglish",277211,665792,1,0,0
+"Bess, Soul Nourisher","Legendary Creature - Human Citizen",Multicolors,Rare,"Leonardo Santanna",1,1,(1)(G)(W),3,1,0,0,$0.27,$0.27,67,"New Capenna Commander",73526,0,,0,"1xMint","","1xEnglish",270118,652461,1,0,0
+"Horn of Valhalla","Artifact - Equipment",White,Rare,"John Severin Brassell",0,0,(1)(W),2,3,0,0,$0.27,$0.84,26,"Commander Legends: Battle for Baldur's Gate",74556,562909,,0,"3xMint","","3xEnglish",273017,660712,1,0,0
+"Master Chef","Legendary Enchantment - Background",Green,Common,"Forrest Imel",0,0,(2)(G),3,3,0,0,$0.09,$0.14,241,"Commander Legends: Battle for Baldur's Gate",74792,563124,,0,"3xMint","","3xEnglish",272734,659107,1,0,0
+"Thunderfoot Baloth","Creature - Beast",Green,Rare,"Nicholas Gregory",5,5,(4)(G)(G),6,1,0,0,$0.82,$0.82,317,"New Capenna Commander",73686,559889,,0,"1xMint","","1xEnglish",269635,652901,1,0,0
+"Beast Within","Instant",Green,Uncommon,"Jesper Ejsing",0,0,(2)(G),3,1,0,0,$0.87,$0.87,114,"Neon Dynasty Commander",72171,554197,,0,"","","",263020,608929,1,0,0
+"Whiptongue Hydra","Creature - Lizard Hydra",Green,Rare,"Tomasz Jedruszek",4,4,(5)(G),6,1,0,0,$0.53,$0.53,134,"Neon Dynasty Commander",72191,554216,,0,"","","",263000,608948,1,0,0
+"Bear Umbra","Enchantment - Aura",Green,Rare,"Howard Lyon",0,0,(2)(G)(G),4,1,0,0,$3.88,$3.88,113,"Neon Dynasty Commander",72170,554196,,0,"1xMint","","1xEnglish",263052,608928,1,0,0
+"Lulu, Loyal Hollyphant","Legendary Creature - Elephant Angel",White,Uncommon,"",3,2,(3)(W),4,1,1,0,$0.02,$0.16,379,"Commander Legends: Battle for Baldur's Gate Collectors",75325,570252,,0,"1xMint","","1xEnglish",272553,659066,1,0,0
+"Inspiring Leader","Legendary Enchantment - Background",White,Uncommon,"Stephen Stark",0,0,(2)(W),3,2,0,0,$0.10,$0.16,28,"Commander Legends: Battle for Baldur's Gate",74559,562911,,0,"2xMint","","2xEnglish",273318,660846,1,0,0
+"Beastmaster Ascension","Enchantment",Green,Rare,"Alex Horley-Orlandelli",0,0,(2)(G),3,1,0,0,$2.57,$2.57,283,"New Capenna Commander",73652,559855,,0,"1xMint","","1xEnglish",269679,652867,1,0,0
+"Githzerai Monk","Creature - Gith Monk",White,Uncommon,"Dan Scott",3,2,(4)(W),5,1,0,0,$0.10,$0.16,20,"Commander Legends: Battle for Baldur's Gate",74549,562903,,0,"1xMint","","1xEnglish",273111,660710,1,0,0
+"Sharpshooter Elf","Creature - Elf Ranger",Green,Uncommon,"Caroline Gariba",0,2,(2)(G),3,2,0,0,$0.17,$0.31,253,"Commander Legends: Battle for Baldur's Gate",74805,563136,,0,"2xMint","","2xEnglish",272782,660746,1,0,0
+"Tuskguard Captain","Creature - Human Warrior",Green,Common,"Aaron Miller",2,3,(2)(G),3,2,0,0,$0.13,$0.28,163,"Double Masters 2022",76053,0,,0,"2xMint","","2xEnglish",276284,664056,1,0,0
+"Loyal Guardian","Creature - Rhino",Green,Uncommon,"Robbie Trevino",4,4,(4)(G),5,1,0,0,$0.46,$0.46,121,"Neon Dynasty Commander",72178,554204,,0,"","","",262994,608936,1,0,0
+"Biogenic Upgrade","Sorcery",Green,Uncommon,"Tomasz Jedruszek",0,0,(4)(G)(G),6,1,0,0,$0.10,$0.23,137,"Double Masters 2022",76027,0,,0,"1xMint","","1xEnglish",277134,665758,1,0,0
+"Idol of Oblivion","Artifact",Colorless,Rare,"Piotr Dura",0,0,(2),2,1,0,0,$1.54,$1.54,368,"New Capenna Commander",73737,559940,,0,"1xMint","","1xEnglish",269670,652952,1,0,0
+"Druid of Purification","Creature - Human Druid",Green,Rare,"Jake Murray",2,3,(3)(G),4,1,0,0,$7.77,$7.77,308,"Forgotten Realms Commander Collectors",67422,531528,,0,"1xMint","","1xEnglish",244244,572661,1,0,0
+"Abdel Adrian, Gorion's Ward","Legendary Creature - Human Warrior",White,Uncommon,"Karl Kopinski",4,4,(4)(W),5,1,0,0,$0.12,$0.22,2,"Commander Legends: Battle for Baldur's Gate",74529,562885,,0,"1xMint","","1xEnglish",272555,658445,1,0,0
+"Generous Gift","Instant",White,Uncommon,"Kev Walker",0,0,(2)(W),3,1,0,0,$0.93,$0.93,84,"Neon Dynasty Commander",72141,554167,,0,"1xMint","","1xEnglish",263072,608596,1,0,0
+"Banishing Slash","Sorcery",White,Uncommon,"Josu Hernaiz",0,0,(W)(W),2,2,0,0,$0.10,$0.16,3,"Kamigawa: Neon Dynasty",71547,548293,,0,"2xMint","","2xEnglish",262189,607325,1,0,0
+"Citizen's Crowbar","Artifact - Equipment",White,Uncommon,"Slawomir Maniak",0,0,(1)(W),2,1,0,0,$0.09,$0.15,8,"Streets of New Capenna",72845,555209,,0,"","","",268913,652153,1,0,0
+"Fang of Shigeki","Enchantment Creature - Snake Ninja",Green,Common,"Yigit Koroglu",1,1,(G),1,2,1,0,$0.04,$0.06,183,"Kamigawa: Neon Dynasty",71745,548491,,0,"","","",262416,607644,1,0,0
+"Experiment One","Creature - Human Ooze",Green,Common,"Jack Wang",1,1,(G),1,1,0,0,$0.16,$0.25,146,"Double Masters 2022",76036,0,,0,"1xMint","","1xEnglish",276281,664052,1,0,0
+"Orochi Merge-Keeper","Creature - Snake Druid",Green,Uncommon,"Brent Hollowell",1,1,(1)(G),2,3,1,0,$0.02,$0.07,203,"Kamigawa: Neon Dynasty",71766,548512,,0,"3xMint","","3xEnglish",262745,608269,1,0,0
+"Cloakwood Swarmkeeper","Creature - Elf Ranger",Green,Common,"Yangtian Li",1,1,(G),1,1,0,0,$0.10,$0.23,222,"Commander Legends: Battle for Baldur's Gate",74769,563105,,0,"1xMint","","1xEnglish",273317,660907,1,0,0
+"Bamboo Grove Archer","Enchantment Creature - Snake Archer",Green,Common,"Steve Prescott",3,3,(1)(G),2,1,0,0,$0.05,$0.07,173,"Kamigawa: Neon Dynasty",71733,548479,,0,"","","",262188,607327,1,0,0
+"Deadly Recluse","Creature - Spider",Green,Common,"Warren Mahy",1,2,(1)(G),2,1,0,0,$0.16,$0.25,142,"Double Masters 2022",76032,0,,0,"1xMint","","1xEnglish",277137,665761,1,0,0
+"Mage's Attendant","Creature - Cat Rogue",White,Uncommon,"Igor Kieryluk",3,2,(2)(W),3,1,0,0,$0.08,$0.18,21,"Streets of New Capenna",72858,555222,,0,"","","",268498,651621,1,0,0
+"Selfless Samurai","Creature - Fox Samurai",White,Uncommon,"PINDURSKI",2,2,(1)(W),2,1,0,0,$0.04,$0.12,35,"Kamigawa: Neon Dynasty",71584,548330,,0,"","","",262597,608188,1,0,0
+"Riveteers Decoy","Creature - Human Warrior",Green,Uncommon,"Inka Schulz",3,1,(1)(G),2,2,1,0,$0.06,$0.06,156,"Streets of New Capenna",72993,555357,,0,"","","",269103,652108,1,0,0
+"Prizefight","Instant",Green,Common,"Deruchenko Alexander",0,0,(1)(G),2,1,0,0,$0.07,$0.13,154,"Streets of New Capenna",72991,555355,,0,"","","",269112,652199,1,0,0
+"Killer Service","Enchantment",Green,Rare,"Simon Dominic",0,0,(2)(G),3,1,0,0,$0.23,$0.23,61,"New Capenna Commander",73520,0,,0,"1xMint","","1xEnglish",269594,652450,1,0,0
+"Sakura-Tribe Elder","Creature - Snake Shaman",Green,Common,"Carl Critchlow",1,1,(1)(G),2,1,0,0,$0.57,$0.57,307,"New Capenna Commander",73676,559879,,0,"1xMint","","1xEnglish",269613,652891,1,0,0
+"Burnished Hart","Artifact Creature - Elk",Colorless,Uncommon,"Jakub Kasper",2,2,(3),3,3,0,0,$0.12,$0.17,303,"Commander Legends: Battle for Baldur's Gate",74855,563186,,0,"3xMint","","3xEnglish",272978,659878,1,0,0
+"Shigeki, Jukai Visionary","Legendary Enchantment Creature - Snake Druid",Green,Rare,"Anna Podedworna",1,3,(1)(G),2,1,1,0,$0.16,$0.34,206,"Kamigawa: Neon Dynasty",71769,548515,,0,"","","",262759,608272,1,0,0
+"Sunblade Samurai","Enchantment Creature - Human Samurai",White,Common,"Aaron Miller",4,4,(4)(W),5,1,0,0,$0.06,$0.11,39,"Kamigawa: Neon Dynasty",71588,548334,,0,"","","",262197,607354,0,0,1
+"Caldaia Strongarm","Creature - Human Warrior",Green,Common,"Randy Vargas",2,3,(4)(G),5,1,0,0,$0.05,$0.07,138,"Streets of New Capenna",72975,555339,,0,"","","",268843,652105,0,0,1
+"Dig Deep","Sorcery - Adventure",Green,Common,"Leonardo Santanna",0,0,(1)(G),6,4,0,0,$0.06,$0.12,223,"Commander Legends: Battle for Baldur's Gate",74771,563106,,0,"4xMint","","4xEnglish",273320,660908,0,0,1
+"Druidic Ritual","Sorcery",Green,Common,"Vincent Christiaens",0,0,(2)(G),3,1,0,0,$0.07,$0.13,227,"Commander Legends: Battle for Baldur's Gate",74776,563110,,0,"1xMint","","1xEnglish",273331,660910,0,0,1
+"Circle of the Land Druid","Creature - Gnome Druid",Green,Common,"Alexandre Honoré",1,1,(1)(G),2,4,0,0,$0.08,$0.17,220,"Commander Legends: Battle for Baldur's Gate",74767,563103,,0,"4xMint","","4xEnglish",273314,660827,0,0,1
+"Grapple with the Past","Instant",Green,Common,"Howard Lyon",0,0,(1)(G),2,1,0,0,$0.14,$0.17,149,"Double Masters 2022",76039,0,,0,"1xMint","","1xEnglish",277138,665762,0,0,1
+"Jukai Preserver","Enchantment Creature - Human Druid",Green,Common,"Donato Giancola",3,3,(3)(G),4,1,0,0,$0.03,$0.05,195,"Kamigawa: Neon Dynasty",71758,548504,,0,"","","",262727,608263,0,0,1
+"Favor of Jukai","Enchantment - Aura",Green,Common,"Howard Lyon",0,0,(3)(G),4,2,1,0,$0.08,$0.08,184,"Kamigawa: Neon Dynasty",71746,548492,,0,"","","",262714,608257,0,0,1
+"Greater Tanuki","Enchantment Creature - Dog",Green,Common,"Ilse Gort",6,5,(4)(G)(G),6,1,0,0,$0.10,$0.10,189,"Kamigawa: Neon Dynasty",71751,548497,,0,"","","",262131,607026,0,0,1
+"Beast","Token Creature - Beast",Green,Common,"Dave Allsop",3,3,,0,1,0,0,$0.00,$9.94,7,"Neon Dynasty Commander Tokens",72303,0,,0,"","","",0,0,0,1,0
+"Boar","Token Creature - Boar",Green,Common,"James Ryman",2,2,,0,0,0,0,$0.23,$0.23,12,"Commander 2021 Tokens",64543,0,,0,"","","",0,560834,0,1,0
+"Citizen","Token Creature - Citizen",Multicolors,Common,"Maria Poliakova",1,1,,0,1,0,0,$0.00,$0.35,12,"Streets of New Capenna Tokens",74209,0,,0,"","","",0,0,0,1,0
+"Eldrazi","Token Creature - Eldrazi",Colorless,Common,"Jack Wang",10,10,,0,0,0,0,$0.00,$0.00,1,"New Capenna Commander Tokens",74215,0,,0,"","","",0,0,0,1,0
+"Eldrazi Spawn","Token Creature - Eldrazi Spawn",Colorless,Common,"Aleksi Briclot",0,1,,0,1,0,0,$0.00,$0.00,2,"New Capenna Commander Tokens",74216,0,,0,"","","",0,0,0,1,0
+"Elephant","Token Creature - Elephant",Green,Common,"Lars Grant-West",3,3,,0,1,0,0,$0.00,$0.00,8,"Neon Dynasty Commander Tokens",72304,0,,0,"","","",0,0,0,1,0
+"Human","Token Creature - Human",White,Common,"Ben Maier",1,1,,0,0,0,0,$0.00,$0.00,26,"Commander Legends: Battle for Baldur's Gate Tokens",75485,0,,0,"","","",0,0,0,1,0
+"Human Soldier","Token Creature - Human Soldier",White,Common,"Eric Deschamps",1,1,,0,1,0,0,$0.00,$0.00,8,"New Capenna Commander Tokens",74222,0,,0,"","","",0,0,0,1,0
+"Insect","Token Creature - Insect",Green,Common,"Jakub Kasper",1,1,,0,1,0,0,$0.00,$0.00,24,"New Capenna Commander Tokens",74238,0,,0,"","","",0,0,0,1,0
+"Pegasus","Token Creature - Pegasus",White,Common,"Greg Hildebrandt",1,1,,0,0,0,0,$0.00,$0.00,3,"Commander Legends: Battle for Baldur's Gate Tokens",75461,0,,0,"","","",0,0,0,1,0
+"Rabbit","Token Creature - Rabbit",White,Common,"Andrea Radeck",1,1,,0,0,0,0,$0.00,$0.00,4,"Commander Legends: Battle for Baldur's Gate Tokens",75462,0,,0,"","","",0,0,0,1,0
+"Rhino Warrior","Token Creature - Rhino Warrior",Green,Common,"Zoltan Boros",4,4,,0,1,0,0,$0.00,$0.41,11,"Streets of New Capenna Tokens",74208,0,,0,"","","",0,0,0,1,0
+"Samurai","Token Creature - Samurai",White,Common,"Gaboleps",2,2,,0,1,0,0,$0.00,$0.24,3,"Kamigawa: Neon Dynasty Tokens",72280,0,,0,"","","",0,0,0,1,0
+"Spirit","Token Creature - Spirit",Colorless,Common,"Brent Hollowell",1,1,,0,1,0,0,$0.33,$0.33,2,"Kamigawa: Neon Dynasty Tokens",72279,0,,0,"","","",0,0,0,1,0
+"Squirrel","Token Creature - Squirrel",Green,Common,"Daniel Ljunggren",1,1,,0,0,0,0,$0.00,$0.00,15,"Commander Legends: Battle for Baldur's Gate Tokens",75473,0,,0,"","","",0,0,0,1,0
+"Copy","Token",Colorless,Common,"David Palumbo",0,0,,0,1,0,0,$0.00,$0.47,1,"Streets of New Capenna Tokens",74198,0,,0,"","","",0,0,0,1,0
+"Treasure","Token Artifact - Treasure",Colorless,Common,"Alayna Danner",0,0,,0,0,0,0,$0.00,$0.00,22,"Double Masters 2022 Tokens",76491,0,,0,"","","",0,0,0,1,0
+"Champion of Lambholt","Creature - Human Warrior",Green,Rare,"Christopher Moeller",1,1,(1)(G)(G),3,1,0,0,$0.37,$0.37,115,"Neon Dynasty Commander",72172,554198,,0,"1xMint","","1xEnglish",262990,608930,0,1,0
+"Your Temple Is Under Attack","Instant",White,Common,"Joseph Weston",0,0,(2)(W),3,2,0,0,$0.09,$0.17,52,"Commander Legends: Battle for Baldur's Gate",74584,562935,,0,"2xMint","","2xEnglish",273443,660818,0,1,0
+"Raffine's Informant","Creature - Human Wizard",White,Common,"John Stanko",2,1,(1)(W),2,1,0,0,$0.08,$0.12,26,"Streets of New Capenna",72863,555227,,0,"","","",268648,651691,0,1,0
+"Illuminator Virtuoso","Creature - Human Rogue",White,Uncommon,"John Stanko",1,1,(1)(W),2,1,0,0,$0.09,$0.17,17,"Streets of New Capenna",72854,555218,,0,"","","",268519,651690,0,1,0
+"Careful Cultivation","Enchantment - Aura",Green,Common,"A. M. Sartor",0,0,(2)(G),3,1,0,0,$0.04,$0.09,178,"Kamigawa: Neon Dynasty",71739,548485,,0,"","","",262705,608254,0,1,0
+"Steadfast Unicorn","Creature - Unicorn",White,Common,"John Thacker",1,2,(W),1,4,0,0,$0.07,$0.11,44,"Commander Legends: Battle for Baldur's Gate",74576,562927,,0,"4xMint","","4xEnglish",273433,660851,0,1,0
+"Civic Gardener","Creature - Human Citizen",Green,Common,"Drew Baker",2,2,(1)(G),2,2,1,0,$0.05,$0.05,140,"Streets of New Capenna",72977,555341,,0,"","","",269100,652194,0,1,0
+"Wilson, Refined Grizzly","Legendary Creature - Bear Warrior",Green,Uncommon,"Justine Mara Andersen",2,2,(1)(G),2,1,0,0,$0.02,$0.06,411,"Commander Legends: Battle for Baldur's Gate Collectors",75357,570284,,0,"1xMint","","1xEnglish",272760,659078,0,1,0
+"Giant Ankheg","Creature - Insect",Green,Uncommon,"Dave Kendall",8,8,(6)(G)(G),8,1,0,0,$0.11,$0.21,233,"Commander Legends: Battle for Baldur's Gate",74784,563116,,0,"1xMint","","1xEnglish",273337,660837,0,1,0
+"Wizard","Token Creature - Wizard",Blue,Common,"Denys Tsiperko",1,1,,0,1,0,0,$0.05,$0.05,5,"Streets of New Capenna Tokens",74202,0,,0,"","","",0,0,0,1,0
