@@ -1,6 +1,8 @@
+/* eslint-disable max-len */
 import { useGetAllCardsInSetQuery } from '../../api/scryfall/card.api';
 import ListCard from './ListCard';
 import './Checklist.scss';
+import collection from '../../data/new-capenna-2.json';
 
 const Checklist = ({ setCode, main }) => {
   // console.log('checklist :>> ');
@@ -18,7 +20,11 @@ const Checklist = ({ setCode, main }) => {
   // console.log('set :>> ', set);
   const start = main ? 0 : set.printed_size;
   const end = main ? set.printed_size : set.card_count;
+  // console.log('set :>> ', set);
+  // console.log('cards :>> ', cards);
 
+  const names = collection.filter((card) => card.Count > 0).map((card) => card.Name);
+  console.log('cards :>> ', cards);
   return (
     <div className="checklist">
       {/* <table>
@@ -32,7 +38,7 @@ const Checklist = ({ setCode, main }) => {
         </thead>
         <tbody> */}
 
-      {cards.slice(start, end).map((card) => <ListCard card={card} set={set} />)}
+      {cards.slice(start, end).filter((card) => !names.includes(card.name)).map((card) => <ListCard card={card} set={set} />)}
       {/* </tbody>
       </table> */}
     </div>

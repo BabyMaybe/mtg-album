@@ -12,6 +12,57 @@
       font-style: italic;
     }
   }
+  input[type=checkbox] {
+    visibility: hidden;
+  }
 
+  .rarity {
+    border: solid black 2px;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    print-color-adjust: exact !important;
+
+
+    &.M{
+      background-color: #ff5b27;
+    }
+    &.R{
+      background-color: #f9ba49;
+    }
+    &.U{
+      background-color: #90bacf;
+    }
+    &.C{
+      // background-color: green;
+    }
+  }
+
+  .mana-cost {
+    display: inline;
+    float: right;
+  }
   // background: deeppink;
+}
+
+@media print {
+  .rarity {
+    border: solid black 2px;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    -webkit-print-color-adjust: exact !important;
+
+    &.M{
+      background-color: #ff5b27;
+    }
+    &.R{
+      background-color: #f9ba49;
+    }
+    &.U{
+      background-color: #90bacf;
+    }
+  }
 }

@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       meow meow meow
-      {/* <CardInput /> */}
+      <CardInput />
       {/* <AutoComplete /> */}
     </div>
   );

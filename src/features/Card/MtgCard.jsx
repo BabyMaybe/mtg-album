@@ -31,8 +31,9 @@ const MtgCard = ({ card }) => {
     );
   }
 
-  const displayCard = cardData.card_faces ? cardData.card_faces[0] : cardData;
-  console.log('displayCard :>> ', displayCard);
+  const displayCard = cardData?.card_faces ? cardData.card_faces[0] : cardData;
+  // console.log('displayCard :>> ', displayCard);
+
   return (
     <div className="mtg-card">
 
@@ -53,7 +54,8 @@ const MtgCard = ({ card }) => {
       {/* Type Line and Set Symbol */}
       <h2 className="card-type">
         {displayCard.type_line}
-        <img className="set-icon" src={setData?.icon_svg_uri} alt="" />
+        <img className={`set-icon ${cardData.rarity}`} src={setData?.icon_svg_uri} alt="" />
+        {/* <img className="set-icon" src={setData?.icon_svg_uri} alt="" /> */}
       </h2>
 
       {/* Text and Flavor */}
@@ -82,7 +84,7 @@ const MtgCard = ({ card }) => {
       {displayCard.power && (
       <div className="card-stats">
         <span className="card-power">{displayCard.power}</span>
-        /
+        <span>/</span>
         <span className="card-toughness">{displayCard.toughness}</span>
       </div>
       )}

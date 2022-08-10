@@ -2,17 +2,20 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import { useState } from 'react';
 import { useGetCollectionMutation } from '../../api/scryfall/card.api';
+import CardList from '../CardList/CardList';
 import './CardInput.scss';
 
 const CardInput = () => {
   const [cardNames, setCardNames] = useState('1 Sol Ring\n1 Lightning Bolt');
-  const [getCollection, { isLoading, data, error }] = useGetCollectionMutation();
+  const [getCollection, { isLoading, data: cardList, error }] = useGetCollectionMutation();
   const handleChange = (e) => {
     setCardNames(e.target.value);
   };
+
   const handleSubmit = (e) => {
     const cards = cardNames.split('\n').map((card) => {
       const parts = card.split(/(\d+)/).filter(Boolean);
+      console.log('parts :>> ', parts);
       const cardObject = {
         count: parts[0],
         name: parts[1].trim(),
@@ -24,7 +27,7 @@ const CardInput = () => {
 
   console.group('lookup');
   isLoading && console.log('Loading');
-  data && console.log('data :>> ', data);
+  cardList && console.log('data :>> ', cardList);
   error && console.log('error :>> ', error);
   console.groupEnd();
 
@@ -37,6 +40,7 @@ const CardInput = () => {
 
       </label>
       <button type="submit" onClick={handleSubmit}> submit </button>
+      <CardList data={cardList} />
     </div>
 
   );

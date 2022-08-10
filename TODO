@@ -1,9 +1,25 @@
-☐ Double Face Cards @created(22-05-30 20:53)
-☐ Planeswalkers Body Text @created(22-05-30 20:53)
+To Do:
+  Weird Faces:
+    ☐ Double Face Cards @created(22-05-30 20:53)
+    ☐ Adventures @created(22-07-26 12:10)
+    ☐ Planeswalkers Body Text @created(22-05-30 20:53)
+  Dev Enhancements:
+    ☐ Absolute Pathing @created(22-06-08 23:17)
+  Performance:
+    ☐ Caching @created(22-06-05 23:51)
+    ☐ English Only @created(22-06-07 22:25)
+  Import:
+    ☐ Import Options @created(22-05-30 20:55)
+  Features:
+    ☐ I want to see which cards I am missing in a set @created(22-07-26 12:11)
+    ☐ I want to see placeholders for a full set @created(22-07-26 12:12)
+    ☐ I want to see all tokens for a set of cards (deck?) @created(22-07-26 12:12)
+    ☐ I want to print a list of cards i need to pull for a deck @created(22-08-03 13:14)
+      ☐ Sorted by set > number @created(22-08-03 13:14)
+    ☐ I want to print a decklist that will fit on a card @created(22-08-05 13:40)
+
+
+Done:
 ✔ Body Text Costs @created(22-05-30 20:53) @done(22-05-30 22:57)
-☐ Import Options @created(22-05-30 20:55)
 ✔ Checklist Generation @created(22-05-30 20:55) @done(22-06-07 23:08)
 ✔ Split API @created(22-06-05 23:49) @done(22-06-07 23:08)
-☐ Caching @created(22-06-05 23:51)
-☐ English Only @created(22-06-07 22:25)
-☐ Absolute Pathing @created(22-06-08 23:17)

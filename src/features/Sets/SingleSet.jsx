@@ -21,7 +21,6 @@ const SingleSet = () => {
           </span>
         </div>
         <h1>
-          {' '}
           {data.name}
         </h1>
         <div className="set-stats">

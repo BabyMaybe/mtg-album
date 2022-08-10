@@ -18,7 +18,6 @@ const Sets2 = () => {
   return (
     <>
       <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value.toUpperCase())} />
-
       <div className="sets2">
         {/* {blocks?.map(block => block.block)} */}
 

@@ -25,7 +25,7 @@
 .mtg-logo {
   width: 80%;
   display: block;
-  opacity: .7;
+  opacity: .6;
 }
 
 .mtg-card-header {
@@ -74,12 +74,47 @@
   padding: 0 5px;
   font-family: "Beleren Bold";
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .set-icon {
-  width: 20px;
+  max-width: 15px;
+  max-height: 15px;
+  text-align: right;
+  float: right;
+  padding: .15em 0;
+
+
+}
+
+.set-icon.common {
+  /* background: whitesmoke; */
+}
+
+.set-icon.uncommon {
+  /* filter: invert(65%) sepia(7%) saturate(47%) hue-rotate(168deg) brightness(92%) contrast(92%);
+   */
+  /* filter: drop-shadow(0px 0px #98999a); */
+  /* filter: invert(100%) sepia(81%) saturate(1532%) hue-rotate(171deg) brightness(93%) contrast(87%); */
+  filter: invert(75%) sepia(8%) saturate(1067%) hue-rotate(155deg) brightness(93%) contrast(96%);
+}
+
+.set-icon.rare {
+  filter: invert(91%) sepia(16%) saturate(4584%) hue-rotate(324deg) brightness(106%) contrast(95%);
+  /* filter: drop-shadow(0px 0px 2px #dbb968); */
+}
+
+.set-icon.mythic {
+  /* filter: invert(70%) sepia(93%) saturate(4378%) hue-rotate(331deg) brightness(100%) contrast(103%); */
+  filter: invert(61%) sepia(52%) saturate(6102%) hue-rotate(10deg) brightness(105%) contrast(99%);
+  filter: invert(43%) sepia(67%) saturate(2324%) hue-rotate(344deg) brightness(100%) contrast(101%);
+  /* background-color: #f07f01; */
+  /* filter: drop-shadow(0px 0px 1px #f07f01); */
+}
+
+.card-set-icon {
+  width: 10px;
   text-align: right;
   float: right;
   padding: .25em;
@@ -127,6 +162,7 @@ p {
 }
 
 .card-stats {
+  font-family: "Beleren Bold";
   border: solid black 1px;
   width: fit-content;
   border-radius: 8px;
@@ -134,13 +170,23 @@ p {
   position: absolute;
   bottom: 5px;
   right: 5px;
-  line-height: 1;
+  /* line-height: 1em; */
   background-color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card-stats>span {
+  margin-bottom: -2px;
 }
 
 @media print {
   .page {
     grid-template-columns: 2.5in 2.5in 2.5in;
     grid-template-rows: 3.5in 3.5in 3.5in;
+    margin: 0 auto;
+    padding-top: 1em;
+    border: solid black 5px;
   }
 }
